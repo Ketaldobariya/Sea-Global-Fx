@@ -1,0 +1,16 @@
+@use "../../scss/main.scss" as *;
+@use "../../scss/font/font.scss" as *;
+@use "../../scss/theme/theme.scss" as *;
+@use "../../scss/typography/typography.scss" as *;
+
+
+.copyright{
+    background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+    padding: 10px 20px;
+    p{
+        color: $black;
+        text-align: center;
+        font-family: Euclid-Medium;
+        @include font14;
+    }
+}

@@ -1,0 +1,34 @@
+@use "../../scss/main.scss" as *;
+@use "../../scss/font/font.scss" as *;
+@use "../../scss/theme/theme.scss" as *;
+@use "../../scss/typography/typography.scss" as *;
+
+.open-account {
+    button{
+  opacity: 1;
+  transform: none;
+  background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+  color: $white;
+  cursor: pointer;
+  border: none;
+  border-radius: 48px;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 16px 4px 4px;
+  font-family: Euclid-SemiBold;
+  @include font16;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  img{
+        -webkit-user-drag: none;
+    max-width: 100%;
+  }
+    }
+    button:hover{
+    background-position: 100%;
+    background: linear-gradient(90deg, #b07a09 10%, #e8bc33 100%);
+    transform: scale(1.05);
+}
+}
+

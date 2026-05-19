@@ -1,0 +1,117 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .account-type-section {
+    background-color: $white300;
+    padding: 110px 0;
+    .container-xl {
+      padding: 0 20px;
+      .account-type-G-title {
+        padding: 0 0 130px;
+        h2 {
+          background: linear-gradient(
+            93deg,
+            #252525 0%,
+            #4e4e4e 24.34%,
+            #4e4e4e 52.49%,
+            #4e4e4e 71.46%,
+            #252525 99.25%
+          );
+          text-align: center;
+          -webkit-text-fill-color: #0000;
+          -webkit-background-clip: text;
+          background-clip: text;
+          margin: 0 0 8px;
+          font-family: GCarturmDemo-SemiBold;
+          @include font48;
+          span {
+            background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+            -webkit-text-fill-color: #0000;
+            -webkit-background-clip: text;
+            background-clip: text;
+          }
+        }
+        p {
+          @include font20;
+          font-family: Euclid-primary;
+          margin: 0 auto;
+          text-align: center;
+          max-width: 903px;
+          color: $black300;
+        }
+      }
+      .account-type-cards {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        padding: 0 0 80px;
+        display: grid;
+        .account-bottom-card {
+          opacity: 1;
+          transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+          box-shadow: none;
+          height: 100%;
+          transform-style: preserve-3d;
+          will-change: transform;
+          transition:
+            transform 0.3s,
+            box-shadow 0.3s;
+          .account-card {
+            background: linear-gradient(#fff 41.83%, #fff0 100%);
+            border-radius: 24px;
+            height: 100%;
+            position: relative;
+            &::before {
+              content: "";
+              border-radius: 24px;
+              border-radius: inherit;
+              -webkit-mask-composite: xor;
+              pointer-events: none;
+              background: linear-gradient(#0003 0%, #fff0 100%);
+              padding: 1px;
+              transition: all 0.3s ease-in-out;
+              position: absolute;
+              inset: 0;
+              -webkit-mask-image:
+                linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+              -webkit-mask-position:
+                0 0,
+                0 0;
+              -webkit-mask-size: auto, auto;
+              -webkit-mask-repeat: repeat, repeat;
+              -webkit-mask-clip: content-box, border-box;
+              -webkit-mask-origin: content-box, border-box;
+              -webkit-mask-composite: xor;
+              mask-composite: exclude;
+              -webkit-mask-source-type: auto, auto;
+              mask-mode: match-source, match-source;
+            }
+            .card-header {
+              transform: translate(0px, 0px) scale(1);
+              background: linear-gradient(
+                93deg,
+                #252525 0%,
+                #4e4e4e 24.34%,
+                #4e4e4e 52.49%,
+                #4e4e4e 71.46%,
+                #252525 99.25%
+              );
+              will-change: transform;
+              border-radius: 24px 24px 0 0;
+              padding: 24px;
+              transition: transform 0.3s;
+              h3 {
+                color: $white;
+                text-align: center;
+                font-family: GCarturmDemo-SemiBold;
+                @include font24;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
