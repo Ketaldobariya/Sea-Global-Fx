@@ -12,7 +12,7 @@
     position: relative;
     z-index: 5;
     .marquee {
-        width: 100%;
+      width: 100%;
       .marquee-alignment {
         padding: 10px;
         display: flex;
@@ -102,5 +102,36 @@
         }
       }
     }
+  
+  .right-image-hover {
+    height: 25px;
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding-block-start: 4px;
+    background-color: $black700;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    transform: translateX(91px);
+    z-index: 1;
+    border-radius: 15.5px 0 0 15.5px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    overflow: hidden;
+    padding: 7px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 2px 4px 0 light-dark(#0003, #0006);
+    svg{
+      color: $white;
+      display: flex;
+      align-items: center;
+    }
   }
+    .right-image-hover:hover{
+      transform: translateX(0);
+    }
+}
 }

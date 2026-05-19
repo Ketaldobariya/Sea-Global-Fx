@@ -11,13 +11,25 @@ section {
     background-size: cover;
     width: 100%;
     height: 100dvh;
+    @media (max-width: 1024px) {
+      height: auto;
+      padding: 120px 0 0;
+      background-position: 0;
+    }
     .left-alignment {
       padding-left: max(20px, 50vw - 670px);
+      @media (max-width:1024px) {
+        padding: 0 20px;
+      }
       .hero-section-grid {
         display: grid;
         grid-template-columns: 1fr 560px;
         gap: 20px;
         height: 100dvh;
+        @media (max-width: 1024px) {
+          grid-template-columns: 1fr;
+          height: auto;
+        }
         .hero-grid-items-left {
           display: flex;
           align-items: center;
@@ -81,6 +93,10 @@ section {
               margin: 0 0 20px;
               font-family: GCarturmDemo-SemiBold;
               @include font56;
+              @media (max-width: 568px) {
+                margin: 0 0 16px;
+                @include font30;
+              }
               span {
                 -webkit-text-fill-color: #0000;
                 background: linear-gradient(90deg, #daa71d 0%, #ae7708 100%);
@@ -96,11 +112,18 @@ section {
               @include font16;
               font-weight: 300;
               line-height: 105%;
+              @media (max-width:568px) {
+                @include font16;
+                line-height: 22px;
+              }
             }
             .towbutton-alignment {
               align-items: center;
               gap: 16px;
               display: flex;
+              @media (max-width:568px) {
+                justify-content: center;
+              }
             }
           }
         }
@@ -115,6 +138,12 @@ section {
             img {
               pointer-events: none;
               width: 100%;
+              @media (max-width: 1024px) {
+                max-width: 60%;
+              }
+              @media (max-width:568px) {
+                max-width: 100%;
+              }
             }
           }
         }

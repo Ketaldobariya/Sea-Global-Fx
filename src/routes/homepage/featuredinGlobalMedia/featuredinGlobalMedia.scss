@@ -1,0 +1,98 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .featured-global-section {
+    padding-left: max(20px, 50vw - 620px);
+    background-color: $white300;
+    padding-bottom: 110px;
+    .featured-global-section-flexbox {
+      gap: 40px;
+      display: flex;
+      .featured-section-items {
+        width: 480px;
+        .featured-section-text {
+          h2 {
+            background: linear-gradient(
+              93deg,
+              #252525 0%,
+              #4e4e4e 24.34%,
+              #4e4e4e 52.49%,
+              #4e4e4e 71.46%,
+              #252525 99.25%
+            );
+            -webkit-text-fill-color: #0000;
+            -webkit-background-clip: text;
+            background-clip: text;
+            margin: 0 0 8px;
+            font-family: GCarturmDemo-SemiBold;
+            @include font48;
+            span {
+              background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+              -webkit-text-fill-color: #0000;
+              -webkit-background-clip: text;
+              background-clip: text;
+            }
+          }
+          p {
+            color: $black300;
+            font-family: Euclid-primary;
+            @include font20;
+          }
+        }
+      }
+      .feautured-section-right-items {
+        width: calc(100% - 480px);
+        position: relative;
+        &::before {
+          content: "";
+          z-index: 9;
+          background: linear-gradient(270deg, #f1f1f100 0%, #f1f1f1 100%);
+          width: 215px;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        .marquee {
+          overflow-x: hidden;
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          width: 100%;
+          transform: none;
+          a {
+            .marquee-light-box {
+              border:
+                0.675px solid rgba 204,
+                204,
+                204,
+                0;
+              background: #0000000d;
+              border-radius: 8.096px;
+              justify-content: center;
+              align-items: center;
+              width: 152px;
+              min-width: 152px;
+              max-width: 152px;
+              height: 52px;
+              margin-right: 10px;
+              display: flex;
+              img {
+                object-fit: contain;
+                width: 70%;
+                height: 50%;
+                display: block;
+              }
+            }
+          }
+        }
+        .marquee-padding{
+            padding: 10px 0 0;
+        }
+      }
+    }
+  }
+}

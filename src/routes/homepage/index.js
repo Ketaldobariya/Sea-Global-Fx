@@ -5,6 +5,10 @@ import MarketsOverview from "./marketoverview";
 import WhySeaGlobal from "./whyseaglobal";
 import Onemarket from "./onemarket";
 import Accounttype from "./accounttype";
+import TrustByTreders from "./trustByTreders";
+import FeaturedinGlobalMedia from "./featuredinGlobalMedia";
+import OpenYourAccount from "./openYourAccount";
+import Faqsection from "../../components/faqsection";
 export default function Homepage(){
     return(
         <div>
@@ -14,6 +18,10 @@ export default function Homepage(){
            <Onemarket/>
            <MarketsOverview/>
            <Accounttype/>
+           {/* <TrustByTreders/> */}
+           {/* <FeaturedinGlobalMedia/> */}
+           {/* <OpenYourAccount/> */}
+           {/* <Faqsection/> */}
         </div>
     );
 }

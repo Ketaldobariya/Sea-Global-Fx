@@ -26,6 +26,10 @@ p {
   max-width: 1334px;
   margin: 0 auto;
 }
+.container-xs2{
+  max-width: 1129px;
+  margin: 0 auto;
+}
 button {
   cursor: pointer;
 }
@@ -46,4 +50,7 @@ div {
 img {
   display: block;
   max-width: 100%;
+}
+.wow {
+  visibility: hidden;
 }

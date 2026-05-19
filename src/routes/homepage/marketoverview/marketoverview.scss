@@ -9,6 +9,9 @@ section {
     padding: 120px 0;
     position: relative;
     overflow: hidden;
+    @media (max-width: 568px) {
+      padding: 60px 0;
+    }
     &::before {
       content: "";
       filter: blur(250px);
@@ -26,13 +29,27 @@ section {
         grid-template-columns: repeat(4, 1fr);
         gap: 24px;
         display: grid;
+        @media (max-width: 1024px) {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 568px) {
+          grid-template-columns: 1fr;
+        }
         .market-overview-items {
           align-items: center;
           display: flex;
+          @media (max-width: 568px) {
+            justify-content: center;
+          }
           h2 {
             color: $white;
             font-family: GCarturmDemo-SemiBold;
             @include font48;
+            @media (max-width: 568px) {
+              text-align: center;
+              margin: 0 0 10px;
+              @include font30;
+            }
             span {
               background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
               -webkit-text-fill-color: #0000;
@@ -130,6 +147,9 @@ section {
       position: absolute;
       bottom: 0;
       right: 0;
+       @media (max-width: 568px){
+        display: none;
+       }
     }
   }
 }

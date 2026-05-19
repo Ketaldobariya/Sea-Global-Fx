@@ -7,14 +7,26 @@ section {
   .Onmarket-section {
     padding: 120px 0;
     position: relative;
+    @media (max-width: 568px){
+      padding: 100px 0 60px;
+    }
     .thinkpadimage {
       opacity: 1;
       transform: none;
       position: absolute;
       top: -12%;
       right: 0;
+      @media (max-width: 568px) {
+        top: -6%;
+      }
       img {
         max-width: 420px;
+        @media (max-width: 1024px) {
+          max-width: 220px;
+        }
+        @media (max-width: 568px) {
+          max-width: 140px;
+        }
       }
     }
     .mobile-image {
@@ -22,16 +34,28 @@ section {
       position: absolute;
       top: 20%;
       left: 4%;
+      @media (max-width: 568px) {
+        display: none;
+      }
       img {
         max-width: 420px;
+        @media (max-width: 1024px) {
+          max-width: 220px;
+        }
       }
     }
     .starimage {
       position: absolute;
       top: 15%;
       left: 0;
+      @media (max-width: 568px) {
+        top: 5%;
+      }
       img {
         max-width: 350px;
+        @media (max-width: 1024px) {
+          max-width: 100px;
+        }
       }
     }
     .container-sm {
@@ -57,6 +81,9 @@ section {
         margin: 0 auto;
         font-family: GCarturmDemo-SemiBold;
         @include font48;
+        @media (max-width: 568px) {
+          @include font30;
+        }
         span {
           background: var(
             --Primary,
@@ -75,21 +102,37 @@ section {
         @include font16;
         font-weight: 400;
         line-height: 17px;
+        @media (max-width: 568px) {
+          margin: 20px 0;
+          font-size: 16px;
+          line-height: 22px;
+        }
       }
       .onmarket-icontext-alignment {
         justify-content: center;
         align-items: center;
         gap: 40px;
         display: flex;
+        @media (max-width: 568px) {
+          justify-content: space-between;
+          gap: 16px;
+        }
         div {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
           .onmarket-icon-center {
+            @media (max-width: 568px) {
+              justify-content: center;
+              display: flex;
+            }
             img {
-                max-width: 100%;
-                display: block;
+              max-width: 100%;
+              display: block;
+              @media (max-width: 568px) {
+                max-width: 40px;
+              }
             }
           }
           span {

@@ -11,38 +11,38 @@ export default function Onemarket(){
     return(
         <section>
             <div className="Onmarket-section">
-                <div className="thinkpadimage">
+                <div className="thinkpadimage animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="0.2s">
                     <img src={Thinkpade} alt="Thinkpad"/>
                 </div>
-                <div className="mobile-image">
+                <div className="mobile-image animate__animated animate__zoomIn wow" data-wow-offset="10"  data-wow-delay="0.2s">
                     <img src={Mobile} alt="Mobile"/>
                 </div>
                 <div className="starimage">
                     <img src={Star} alt="Star"/>
                 </div>
                 <div className="container-sm">
-                    <h2>One market. <br/>Multiple platforms.<br/><span>Zero</span> compromise.</h2>
-                    <p>Access the markets through industry-leading trading platforms built for speed, flexibility, and performance. Whether you trade manually or algorithmically, on desktop or mobile, our platforms are designed to support every trading style.</p>
+                    <h2 className="animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="0s">One market. <br/>Multiple platforms.<br/><span>Zero</span> compromise.</h2>
+                    <p className="animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="0.4s">Access the markets through industry-leading trading platforms built for speed, flexibility, and performance. Whether you trade manually or algorithmically, on desktop or mobile, our platforms are designed to support every trading style.</p>
                     <div className="onmarket-icontext-alignment">
-                        <div>
+                        <div className="animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="1s">
                             <div className="onmarket-icon-center">
                                 <img src={MT4} alt="MT4"/>
                             </div>
                             <span>MT4</span>
                         </div>
-                        <div>
+                        <div className="animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="1.1s">
                             <div className="onmarket-icon-center">
                                 <img src={MT5} alt="MT5"/>
                             </div>
                             <span>MT5</span>
                         </div>
-                        <div>
+                        <div className="animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="1.2s">
                             <div className="onmarket-icon-center">
                                 <img src={WEB} alt="Web Platform"/>
                             </div>
                             <span>Web<br/> Platform</span>
                         </div>
-                        <div>
+                        <div className="animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="1.3s">
                             <div className="onmarket-icon-center">
                                 <img src={Mobile1} alt="Mobile"/>
                             </div>

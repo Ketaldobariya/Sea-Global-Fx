@@ -1,0 +1,150 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .trustByTreders-section {
+    background-color: $white300;
+    padding: 100px 0;
+    .trustByTreders-section-title {
+      padding: 0 0 90px;
+      h2 {
+        background: linear-gradient(
+          93deg,
+          #252525 0%,
+          #4e4e4e 24.34%,
+          #4e4e4e 52.49%,
+          #4e4e4e 71.46%,
+          #252525 99.25%
+        );
+        text-align: center;
+        -webkit-text-fill-color: #0000;
+        -webkit-background-clip: text;
+        background-clip: text;
+        margin: 0 0 8px;
+        font-family: GCarturmDemo-SemiBold;
+        @include font48;
+        span {
+          background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+          -webkit-text-fill-color: #0000;
+          -webkit-background-clip: text;
+          background-clip: text;
+        }
+      }
+      p {
+        color: $black300;
+        text-align: center;
+        max-width: 999px;
+        margin: 0 auto;
+        font-family: Euclid-primary;
+        @include font20;
+      }
+    }
+    .trustByTreders-cards-swiper {
+      overflow: hidden;
+      .cards-swiper {
+        scrollbar-width: none;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 0 30px;
+        z-index: 1;
+        box-sizing: content-box;
+        display: flex;
+        position: relative;
+        gap: 30px;
+        .trustByTreders-card {
+          cursor: grab;
+          width: 353.87px;
+          max-width: 353.87px;
+          min-width: 353.87px;
+          background: $white;
+          border-radius: 24px;
+          padding: 28px;
+          transition: all 0.3s ease-in-out;
+          position: relative;
+          z-index: 2;
+          &::before {
+            content: "";
+            -webkit-mask-composite: xor;
+            pointer-events: none;
+            background: linear-gradient(#0003 0%, #6660 100%);
+            border-radius: 24px;
+            padding: 1px;
+            transition: all 0.3s ease-in-out;
+            position: absolute;
+            inset: 0;
+            -webkit-mask-image:
+              linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+            -webkit-mask-position:
+              0 0,
+              0 0;
+            -webkit-mask-size: auto, auto;
+            -webkit-mask-repeat: repeat, repeat;
+            -webkit-mask-clip: content-box, border-box;
+            -webkit-mask-origin: content-box, border-box;
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            -webkit-mask-source-type: auto, auto;
+            mask-mode: match-source, match-source;
+          }
+          .card-bottom-text {
+            grid-template-columns: 1px 1fr;
+            gap: 24px;
+            display: grid;
+            .card-gold-line {
+              background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+              width: 100%;
+              height: 100%;
+            }
+            .card-paragraph {
+              p {
+                color: $black300;
+                margin: 24px 0 16px;
+                font-family: Euclid-primary;
+                @include font17;
+              }
+              .card-profile {
+                grid-template-columns: 60px 1fr;
+                align-items: center;
+                gap: 13px;
+                display: grid;
+                .profile-image {
+                  background-color: $white100;
+                  border-radius: 50%;
+                  width: 60px;
+                  height: 60px;
+                  img {
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 50%;
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                  }
+                }
+                div {
+                  h4 {
+                    color: $black300;
+                    margin: 0 0 4px;
+                    font-family: Euclid-SemiBold;
+                    @include font17;
+                    font-weight: 600;
+                    line-height: 105%;
+                  }
+                  span {
+                    color: $black300;
+                    margin: 0 0 4px;
+                    font-family: Euclid-primary;
+                    @include font17;
+                    line-height: 105%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

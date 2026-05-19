@@ -2,6 +2,7 @@ import React from "react";
 import "./header.scss";
 import Logo from "../../assets/logo/logo.svg";
 import Share from "../../assets/images/login share.svg"
+import { TextAlignJustify } from "lucide-react";
 export default function Header() {
   return (
     <header>
@@ -94,6 +95,9 @@ export default function Header() {
                         <span>Login</span>
                     </button>
                 </a>
+                  <div className="mobile-menu">
+                    <TextAlignJustify />
+                  </div>
             </div>
           </div>
         </div>
