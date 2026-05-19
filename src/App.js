@@ -11,8 +11,8 @@ function App() {
       <Header/>
       <Homepage/>
       <Whatsapp/>
-      {/* <Footer/> */}
-      {/* <Copyright/> */}
+      <Footer/>
+      <Copyright/>
     </div>
   );
 }

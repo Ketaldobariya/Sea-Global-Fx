@@ -18,10 +18,10 @@ export default function Homepage(){
            <Onemarket/>
            <MarketsOverview/>
            <Accounttype/>
-           {/* <TrustByTreders/> */}
-           {/* <FeaturedinGlobalMedia/> */}
-           {/* <OpenYourAccount/> */}
-           {/* <Faqsection/> */}
+           <TrustByTreders/>
+           <FeaturedinGlobalMedia/>
+           <OpenYourAccount/>
+           <Faqsection/>
         </div>
     );
 }
