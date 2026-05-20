@@ -7,8 +7,14 @@ section {
   .trustByTreders-section {
     background-color: $white300;
     padding: 100px 0;
+    @media (max-width: 568px) {
+      padding: 60px 0;
+    }
     .trustByTreders-section-title {
       padding: 0 0 90px;
+      @media (max-width: 568px) {
+        padding: 0 0 30px;
+      }
       h2 {
         background: linear-gradient(
           93deg,
@@ -25,6 +31,9 @@ section {
         margin: 0 0 8px;
         font-family: GCarturmDemo-SemiBold;
         @include font48;
+        @media (max-width: 568px) {
+          @include font30;
+        }
         span {
           background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
           -webkit-text-fill-color: #0000;
@@ -39,6 +48,10 @@ section {
         margin: 0 auto;
         font-family: Euclid-primary;
         @include font20;
+        @media (max-width: 568px) {
+          font-size: 16px;
+          line-height: 22px;
+        }
       }
     }
     .trustByTreders-cards-swiper {
@@ -53,6 +66,9 @@ section {
         display: flex;
         position: relative;
         gap: 30px;
+        @media (max-width: 568px){
+          padding: 0 20px;
+        }
         .trustByTreders-card {
           cursor: grab;
           width: 353.87px;
@@ -64,6 +80,11 @@ section {
           transition: all 0.3s ease-in-out;
           position: relative;
           z-index: 2;
+          img {
+            @media (max-width: 568px) {
+              max-width: 30px;
+            }
+          }
           &::before {
             content: "";
             -webkit-mask-composite: xor;
@@ -92,6 +113,10 @@ section {
             grid-template-columns: 1px 1fr;
             gap: 24px;
             display: grid;
+            padding-bottom: 60px;
+            @media (max-width:568px) {
+              padding-bottom: 40px;
+            }
             .card-gold-line {
               background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
               width: 100%;
@@ -103,17 +128,36 @@ section {
                 margin: 24px 0 16px;
                 font-family: Euclid-primary;
                 @include font17;
+                @media (max-width: 568px) {
+                  margin: 10px 0 14px;
+                  font-size: 14px;
+                  line-height: 21px;
+                }
               }
               .card-profile {
                 grid-template-columns: 60px 1fr;
                 align-items: center;
                 gap: 13px;
                 display: grid;
+                position: absolute;
+                bottom: 28px;
+                left: 28px;
+                @media (max-width: 568px){
+                  grid-template-columns: 40px 1fr;
+                }
                 .profile-image {
                   background-color: $white100;
                   border-radius: 50%;
                   width: 60px;
                   height: 60px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  @media (max-width: 568px) {
+                    width: 40px;
+                    height: 40px;
+                     max-width: 100%;
+                  }
                   img {
                     object-fit: cover;
                     object-position: center;
@@ -121,6 +165,7 @@ section {
                     width: 100%;
                     height: 100%;
                     display: block;
+                    max-width: 100%;
                   }
                 }
                 div {
@@ -131,6 +176,11 @@ section {
                     @include font17;
                     font-weight: 600;
                     line-height: 105%;
+                    @media (max-width: 568px) {
+                      font-size: 16px;
+                      line-height: 22px;
+                      margin: 0 0 0 0;
+                    }
                   }
                   span {
                     color: $black300;
@@ -138,6 +188,10 @@ section {
                     font-family: Euclid-primary;
                     @include font17;
                     line-height: 105%;
+                    @media (max-width: 568px){
+                      font-size: 14px;
+                      ine-height: 105%;
+                    }
                   }
                 }
               }

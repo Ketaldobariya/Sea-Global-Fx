@@ -13,7 +13,7 @@ export default function Faqsection() {
           </div>
           <div className="faq-tow-col-grid">
             <div className="left-side">
-              <div className="faq-items">
+              <div className="faq-items faq-small-hover">
                 <div className="faq-items-main">
                   <div className="faq-header">
                     <h3>How Do I Open an Account with Sea Global FX?</h3>

@@ -6,12 +6,18 @@
 section {
   .openYourAccount-section {
     padding: 110px 0;
+     @media (max-width:568px){
+      padding: 60px 0;
+     }
     .container-xl {
       padding: 0 20px;
       .openYourAccount-title {
         opacity: 1;
         transform: none;
         padding: 0 0 32px;
+         @media (max-width:568px){
+          padding: 0 0 30px;
+         }
         h2 {
           background: linear-gradient(
             93deg,
@@ -28,6 +34,9 @@ section {
           margin: 0 0 8px;
           font-family: GCarturmDemo-SemiBold;
           @include font48;
+           @media (max-width:568px){
+            @include font30;
+           }
           span {
             background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
             -webkit-text-fill-color: #0000;
@@ -42,12 +51,23 @@ section {
           margin: 0 auto;
           font-family: Euclid-primary;
           @include font20;
+           @media (max-width:568px){
+            font-size: 16px;
+            line-height: 22px;
+           }
         }
       }
       .easy-steps-cards {
         grid-template-columns: repeat(4, 1fr);
         gap: 16px;
         display: grid;
+         @media (max-width:1024px){
+          grid-template-columns: repeat(2,1fr);
+         }
+         @media (max-width:568px){
+          grid-template-columns:1fr;
+          gap: 20px;
+         }
         .easy-steps-card {
           transform-style: preserve-3d;
           background: $white300;

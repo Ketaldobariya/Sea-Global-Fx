@@ -7,10 +7,16 @@ section {
   .Faq-section {
     background: $white300;
     padding: 110px 0;
+    @media (max-width: 568px) {
+      padding: 60px 0 40px;
+    }
     .container-xs2 {
       padding: 0 20px;
       .faq-title {
         padding: 0 0 42px;
+        @media (max-width: 568px) {
+          padding: 0 0 30px;
+        }
         h2 {
           background: linear-gradient(
             93deg,
@@ -26,6 +32,9 @@ section {
           background-clip: text;
           font-family: GCarturmDemo-SemiBold;
           @include font48;
+          @media (max-width: 568px) {
+            @include font30;
+          }
           span {
             background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
             -webkit-text-fill-color: #0000;
@@ -39,10 +48,14 @@ section {
         grid-template-columns: repeat(2, 1fr);
         gap: 18px;
         display: grid;
+        @media (max-width: 1024px) {
+          grid-template-columns: 1fr;
+          gap: 0;
+        }
         .left-side {
-          transition: 0.5s ease-in-out;
+          transition: 1s ease-in-out;
           .faq-items {
-            transition: all 0.5s ease-in-out;
+            transition: all 1s ease-in-out;
             .faq-items-main {
               background: $backgroundblack;
               border: 1px solid $backgroundblack;
@@ -51,51 +64,87 @@ section {
               padding: 15px;
               max-height: 66px;
               overflow: hidden;
-              transition: max-height 0.5s ease-in-out;
+              transition: max-height 1s ease-in-out;
+              @media (max-width: 378px) {
+                max-height: 85px;
+                transition:1s ease-in-out;
+              }
               .faq-header {
                 justify-content: space-between;
                 align-items: center;
                 display: flex;
-                transition: 0.5s ease-in-out;
+                transition: 1s ease-in-out;
+                @media (max-width: 568px) {
+                  display: grid;
+                  grid-template-columns: 1fr 36px;
+                  gap: 10px;
+                }
+                @media (max-width:320px) {
+                  grid-template-columns: 1fr 30px;
+                  gap: 10px;
+                }
                 h3 {
                   color: $black400;
                   font-family: Euclid-Medium;
                   @include font18;
                   line-height: normal;
+                  transition: 1s ease-in-out;
+                  @media (max-width: 568px) {
+                    font-size: 16px;
+                  }
                 }
                 .faq-right-aroicon {
                   align-items: center;
                   display: flex;
                   cursor: pointer;
                   img {
-                    transition: 0.5s ease-in-out;
+                    transition: 1s ease-in-out;
                   }
                 }
               }
               .faq-body {
                 height: auto;
                 opacity: 0;
+                transition:1s ease-in-out;
                 .faq-spacing {
                   padding: 15px 0 0;
+                  @media (max-width: 568px) {
+                    padding: 12px 0 0;
+                  }
                   p {
                     color: $black300;
                     font-family: Euclid-primary;
                     @include font16;
                     line-height: 24px;
+                    transition:1s ease-in-out;
+                    @media (max-width:568px){
+                      font-size: 14px;
+                      line-height: 21px;
+                    }
                   }
                 }
               }
             }
-            .faq-items-height{
-              max-height: 75px
+            .faq-items-height {
+              max-height: 75px;
+              @media (max-width: 378px) {
+                max-height: 88px;
+              }
             }
+            .faq-small-hover {
+              max-height: 85px;
+            }
+           
 
             .faq-items-main:hover {
-              max-height: 153px;
-              transition: 0.5s ease-in-out;
-              
+              max-height: 400px;
+              transition: 1s ease-in-out;
+              @media (max-width: 568px) {
+                max-height: 500px;
+              }
+
               .faq-header {
-                transition: 0.5s ease-in-out;
+                transition: 1s ease-in-out;
                 .faq-right-aroicon {
                   img {
                     transform: rotate(180deg);
@@ -104,13 +153,23 @@ section {
               }
               .faq-body {
                 opacity: 1;
-                transition: 0.5s ease-in-out;
+                transition: 1s ease-in-out;
               }
             }
-            .faq-items-height:hover{
-                max-height: 201px;
+            .faq-items-height:hover {
+              max-height: 450px;
+              @media (max-width: 568px) {
+                max-height: 500px;
               }
+            }
+            .faq-small-hover:hover {
+             @media (max-width: 568px) {
+                max-height: 500px;
+              }
+            }
           }
+           
+            
         }
         // .left-side:hover {
         //   &:hover:last-child {
