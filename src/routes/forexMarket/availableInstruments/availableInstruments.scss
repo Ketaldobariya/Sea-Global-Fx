@@ -1,0 +1,685 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .availableInstruments-section {
+    background: $white300;
+    padding: 110px 0;
+    font-family: Roboto_Regular;
+    @media (max-width: 568px) {
+      padding: 60px 0;
+    }
+    .container-xs2 {
+      padding: 0 20px;
+      .availableInstruments-title {
+        padding: 0 0 32px;
+        @media (max-width: 568px) {
+          padding: 0 0 30px;
+        }
+        h2 {
+          background: linear-gradient(
+            93deg,
+            #252525 0%,
+            #4e4e4e 24.34%,
+            #4e4e4e 52.49%,
+            #4e4e4e 71.46%,
+            #252525 99.25%
+          );
+          text-align: center;
+          -webkit-text-fill-color: #0000;
+          -webkit-background-clip: text;
+          background-clip: text;
+          margin: 0 0 8px;
+          font-family: GCarturmDemo-SemiBold;
+          @include font48;
+          @media (max-width: 568px) {
+            @include font30;
+          }
+          span {
+            background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+            -webkit-text-fill-color: #0000;
+            -webkit-background-clip: text;
+            background-clip: text;
+          }
+        }
+        p {
+          color: $black300;
+          text-align: center;
+          max-width: 738px;
+          margin: 0 auto;
+          font-family: Euclid-primary;
+          @include font16;
+          font-weight: 400;
+          line-height: 17px;
+          @media (max-width: 568px) {
+            font-size: 16px;
+            line-height: 22px;
+          }
+        }
+      }
+      .tradingview-container {
+        overflow: hidden;
+        .tradingview-container-widget {
+          .tradingview-container-widget-height {
+            width: 100%;
+            height: 649px;
+            background-color: #fff;
+            .tradingview-table-alignment {
+              overflow: auto;
+              height: calc(100% + 0%);
+              background: $white;
+              border-color: $white400;
+              border-radius: 3px;
+              border-style: solid;
+              border-width: 1px;
+              box-sizing: border-box;
+              height: 100%;
+              overflow: hidden;
+              position: relative;
+              .right-image-hover-logo {
+                height: 25px;
+                max-width: 120px;
+                display: flex;
+                align-items: center;
+                gap: 2px;
+                padding-block-start: 4px;
+                background-color: $white;
+                position: absolute;
+                right: 0;
+                bottom: 10px;
+                transform: translateX(91px);
+                z-index: 6;
+                border-radius: 15.5px 0 0 15.5px;
+                box-sizing: border-box;
+                cursor: pointer;
+                display: flex;
+                overflow: hidden;
+                padding: 7px;
+                transition: 0.3s ease-in-out;
+                box-shadow: 0 2px 4px 0 light-dark(#0003, #0006);
+                svg {
+                  color: #000;
+                  display: flex;
+                  align-items: center;
+                }
+              }
+              .right-image-hover-logo:hover {
+                transform: translateX(0);
+              }
+              .tradingview-table-alignment-overflow-hidden {
+                height: 100%;
+                overflow: hidden;
+                margin: 0;
+                width: 100%;
+                position: relative;
+                scrollbar-width: none;
+                .tradingview-header {
+                  align-items: center;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-wrap: nowrap;
+                  padding: 12px 20px 10px;
+                  position: relative;
+                  background-color: #fff;
+                  transition: display 0.4s 0.4s;
+                  z-index: 5;
+                  .tradingview-header-overviewbtn {
+                    height: 32px;
+                    margin-bottom: 2px;
+                    background-color: #fff;
+                    .tradingview-header-overviewbtn-toolbar-btn {
+                      width: 89.0417px;
+                      padding-inline-end: 23px;
+                      border: 1px solid;
+                      border-color: $white400;
+                      border-radius: 2px;
+                      box-sizing: border-box;
+                      color: $grey300;
+                      cursor: pointer;
+                      display: inline-block;
+                      flex-shrink: 0;
+                      font-size: 12px;
+                      font-weight: 700;
+                      height: 32px;
+                      max-width: 250px;
+                      overflow: hidden;
+                      padding-block: 8px 0;
+                      padding-inline: 12px 12px;
+                      position: relative;
+                      text-overflow: ellipsis;
+                      transition:
+                        background-color 175ms ease,
+                        opacity 175ms ease;
+                      vertical-align: middle;
+                      white-space: nowrap;
+                      transition: 0.3s ease-in-out;
+                      &::before {
+                        border: 4px solid #0000;
+                        border-top: 4px solid $grey200;
+                        content: "";
+                        inset-inline-end: 6px;
+                        margin-top: -4px;
+                        margin-inline-start: 5px;
+                        margin-inline-start: 0;
+                        position: absolute;
+                        top: 55%;
+                      }
+                    }
+                    .tradingview-header-overviewbtn-toolbar-btn:hover {
+                      background-color: $grey400;
+                    }
+                  }
+                  .tradingview-header-wrap-btn {
+                    height: 32px;
+                    margin-bottom: 2px;
+                    position: relative;
+                    .tradingview-header-wrap-btn-alignment {
+                      align-items: center;
+                      display: flex;
+                      height: 32px;
+                      justify-content: center;
+                      padding: 0;
+                      width: 32px;
+                      padding-inline-end: 23px;
+                      border: 1px solid;
+                      border-color: $white400;
+                      border-radius: 2px;
+                      box-sizing: border-box;
+                      color: $grey300;
+                      cursor: pointer;
+                      display: inline-block;
+                      flex-shrink: 0;
+                      font-size: 12px;
+                      font-weight: 700;
+                      height: 32px;
+                      max-width: 250px;
+                      overflow: hidden;
+                      padding-block: 8px 0;
+                      padding-inline: 12px 12px;
+                      position: relative;
+                      text-overflow: ellipsis;
+                      transition:
+                        background-color 175ms ease,
+                        opacity 175ms ease;
+                      vertical-align: middle;
+                      white-space: nowrap;
+                      transition: 0.3s ease-in-out;
+                      svg {
+                        fill: $grey300;
+                        position: relative;
+                        vertical-align: middle;
+                        width: 14px;
+                        height: 12px;
+                      }
+                    }
+                    .tradingview-header-wrap-btn-alignment:hover {
+                      background-color: $grey400;
+                    }
+                  }
+                  .tradingview-favorite {
+                    height: 32px;
+                    margin-bottom: 2px;
+                    max-width: 100%;
+                    align-items: center;
+                    display: flex;
+                    flex-grow: 1;
+                    transition: 0.3s ease-in-out;
+                  }
+                  .tradingview-favorite:hover {
+                    background-color: $grey400;
+                  }
+                  .tradingview-allpair-btn {
+                    height: 32px;
+                    margin-bottom: 2px;
+                    .tradingview-allpair-btn-alignment {
+                      cursor: pointer;
+                      padding-inline-end: 23px;
+                      margin-inline-end: 10px;
+                      border: 1px solid;
+                      border-color: $white400;
+                      border-radius: 2px;
+                      box-sizing: border-box;
+                      color: $grey300;
+                      cursor: pointer;
+                      display: inline-block;
+                      flex-shrink: 0;
+                      font-size: 12px;
+                      font-weight: 700;
+                      height: 32px;
+                      max-width: 250px;
+                      overflow: hidden;
+                      padding-block: 8px 0;
+                      padding-inline: 12px 12px;
+                      position: relative;
+                      text-overflow: ellipsis;
+                      transition:
+                        background-color 175ms ease,
+                        opacity 175ms ease;
+                      vertical-align: middle;
+                      white-space: nowrap;
+                      transition: 0.3s ease-in-out;
+                      &::before {
+                        border: 4px solid #0000;
+                        border-top: 4px solid $grey200;
+                        content: "";
+                        inset-inline-end: 6px;
+                        margin-top: -4px;
+                        margin-inline-start: 5px;
+                        margin-inline-start: 0;
+                        position: absolute;
+                        top: 55%;
+                      }
+                      span {
+                        padding-inline-end: 12px;
+                      }
+                    }
+                    .tradingview-allpair-btn-alignment:hover {
+                      background-color: $grey400;
+                    }
+                  }
+                  .background-blue {
+                    background-color: $blue;
+                    border-width: 0;
+                    color: $white;
+                    height: 32px;
+                    margin-bottom: 2px;
+                    margin-left: -10px;
+                    transition: 0.3s ease-in-out;
+                    .tradingview-filter-btn-alignment {
+                      border: 1px solid;
+                      border-color: $white400;
+                      border-radius: 2px;
+                      box-sizing: border-box;
+                      cursor: pointer;
+                      display: inline-block;
+                      flex-shrink: 0;
+                      font-size: 12px;
+                      font-weight: 700;
+                      height: 32px;
+                      max-width: 250px;
+                      overflow: hidden;
+                      padding-block: 8px 0;
+                      padding-inline: 12px 12px;
+                      position: relative;
+                      text-overflow: ellipsis;
+                      transition:
+                        background-color 175ms ease,
+                        opacity 175ms ease;
+                      vertical-align: middle;
+                      white-space: nowrap;
+                      svg {
+                        height: 14px;
+                        margin-inline-start: 7px;
+                        width: 12px;
+                        color: $white;
+                      }
+                    }
+                  }
+                  .background-blue:hover {
+                    background-color: $blue100;
+                  }
+                }
+                .table-alignment {
+                  position: relative;
+                  width: 100%;
+                  height: calc(100% - 56px);
+                  overflow: auto;
+                  z-index: 2;
+                  background-color: #fff;
+                  scrollbar-width: none;
+                  .table {
+                    table-layout: fixed;
+                    color: $black800;
+                    position: static;
+                    border-collapse: separate;
+                    border-spacing: 0;
+                    width: 100%;
+                    box-sizing: border-box;
+                    background-color: #fff;
+                    min-width: 1100px;
+                    @media (max-width: 900px) {
+                      min-width: 930px;
+                    }
+
+                    .thead {
+                      pointer-events: auto;
+                      width: 100%;
+                      z-index: 5;
+                      background-color: #fff;
+
+                      .tr {
+                        border-bottom: 1px solid;
+                        border-bottom-color: $white400;
+                        border-top: 1px solid;
+                        border-top-color: $white400;
+                        height: 48px;
+                        .th {
+                          border-bottom: 1px solid $white400;
+                          border-right: 1px solid $white400;
+                          color: $grey;
+                          cursor: default;
+                          font-weight: 400;
+                          position: sticky;
+                          top: 0;
+                          z-index: 4;
+                          background-color: #fff;
+                          box-shadow:
+                            inset 0 1px 0 $white400,
+                            inset -1px 0 0 $white400,
+                            inset 0 -1px 0 $white400;
+                          text-align: start;
+                          white-space: normal;
+                          .ticker-matches-view-btn {
+                            align-items: center;
+                            display: flex;
+                            height: 47px;
+                            padding: 0 10px;
+                            background-color: #fff;
+                            .ticker-matches-view-btn-alignment {
+                              display: grid;
+                              grid-template-areas:
+                                "columnName"
+                                "columnValue";
+                              grid-template-rows: auto auto;
+                              row-gap: 3px;
+                              min-width: 90px;
+                              padding-inline-start: 20px;
+                              text-align: start;
+                              color: $grey;
+                              text-transform: uppercase;
+                              width: 100%;
+                              @media (max-width: 900px) {
+                                padding-inline-start: 0px;
+                              }
+                              .head-left-text {
+                                display: block;
+                                grid-area: columnName;
+                                position: relative;
+                                vertical-align: middle;
+                                width: 100%;
+                                --ui-lib-typography-line-height: 17px;
+                                line-height: var(
+                                  --ui-lib-typography-line-height
+                                );
+                                --ui-lib-typography-font-size: 12px;
+                                font-size: var(--ui-lib-typography-font-size);
+                                font-style: normal;
+                                font-weight: 400;
+                                .head-left-text-alignment {
+                                  display: -webkit-box;
+                                  overflow: hidden;
+                                  -webkit-line-clamp: 3;
+                                  -webkit-box-orient: vertical;
+                                  line-height: 12px;
+                                  max-height: 36px;
+                                  font-size: 12px;
+                                }
+                              }
+                              .head-right-hover-svg {
+                                align-items: center;
+                                background-color: var(
+                                  --color-screener-header-bg-hover
+                                );
+                                color: var(--color-text-secondary);
+                                display: inline-flex;
+                                height: 100%;
+                                inset-inline-end: 0;
+                                justify-content: center;
+                                opacity: 0;
+                                position: absolute;
+                                top: 0;
+                                width: 18px;
+                                transition: 0.1s ease-in-out;
+                                svg {
+                                  height: 14px;
+                                  width: 12px;
+                                }
+                              }
+                              .head-right-hover-svg:hover {
+                                background-color: #ebebeb;
+                              }
+                              .head-left-text-bottom-text {
+                                color: $black800;
+                                display: block;
+                                font-size: 12px;
+                                grid-area: columnValue;
+                                line-height: 12px;
+                                text-transform: uppercase;
+                                white-space: nowrap;
+                                width: 100%;
+                              }
+                            }
+                            span {
+                              background-color: $blue200;
+                              bottom: 0;
+                              display: inline-block;
+                              height: 2px;
+                              inset-inline-end: 0;
+                              position: absolute;
+                              text-align: center;
+                              visibility: hidden;
+                              width: 100%;
+                              white-space: normal;
+                              svg {
+                                top: -3px;
+                                inset-inline-end: calc(50% - 4px);
+                                position: absolute;
+                                fill: $blue200;
+                                width: 8;
+                                height: 3;
+                              }
+                            }
+                          }
+                        }
+                        .more-details-svg {
+                          border-inline-start: 1px solid;
+                          border-inline-start-color: $white400;
+                          border-top: 1px solid;
+                          border-top-color: $white400;
+                          border-bottom: 1px solid $white400;
+                          box-sizing: border-box;
+                          padding: 0;
+                          position: sticky;
+                          top: 0;
+                          z-index: 4;
+                          background-color: #fff;
+                          box-shadow:
+                            inset 0 1px 0 $white400,
+                            inset -1px 0 0 $white400,
+                            inset 0 -1px 0 $white400;
+                          width: 40px;
+                          min-width: 40px;
+                          max-width: 40px;
+                          .more-details-svg-alignment {
+                            align-items: center;
+                            cursor: pointer;
+                            display: flex;
+                            height: 48px;
+                            justify-content: center;
+                            width: 40px;
+                            svg {
+                              position: relative;
+                              fill: $grey300;
+                              width: 3px;
+                              height: 13px;
+                            }
+                          }
+                        }
+                        .more-details-svg:hover {
+                          background-color: #f2f2f2;
+                        }
+                        .th:hover {
+                          background-color: #f2f2f2;
+                          .ticker-matches-view-btn {
+                            .ticker-matches-view-btn-alignment {
+                              .head-right-hover-svg {
+                                opacity: 1;
+                              }
+                            }
+                            span {
+                              visibility: visible;
+                            }
+                          }
+                        }
+                      }
+                    }
+                    .tbody {
+                      color: $black800;
+                      border-collapse: collapse;
+                      border-spacing: 0;
+                      .tr {
+                        cursor: default;
+                        height: 48px;
+                        width: 100%;
+                        max-width: 100%;
+                        min-width: 100%;
+                        .td {
+                          min-width: 90px;
+                          max-width: 300px;
+                          padding-bottom: 4px;
+                          padding-inline-start: 20px;
+                          padding-top: 5px;
+                          .symbol-container {
+                            align-items: center;
+                            display: flex;
+                            text-align: center;
+                            span {
+                              height: 24px;
+                              width: 24px;
+                              flex-shrink: 0;
+                              margin-inline-end: 8px;
+                              position: relative;
+                              .bottom-image {
+                                clip-path: path(
+                                  "M16 8A8 8 0 0 0 .3 6a10 10 0 0 1 9.7 9.7A8 8 0 0 0 16 8Z"
+                                );
+                                user-select: text;
+                                height: 16px;
+                                width: 16px;
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                border-radius: 50%;
+                              }
+                              .top-image {
+                                transform: translate(-8px, 8px);
+                                height: 16px;
+                                width: 16px;
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                border-radius: 50%;
+                              }
+                            }
+                            .symbol-container-description {
+                              user-select: text;
+                              min-width: 0;
+                              text-align: start;
+                              font-size: 14px;
+                              white-space: nowrap;
+                              cursor: default;
+                              a {
+                                text-transform: none;
+                                transition: color 0.35s ease;
+                                color: #2962ff;
+                                cursor: pointer;
+                                display: inline-block;
+                                font-weight: 700;
+                                max-width: 100%;
+                                padding-inline-end: 3px;
+                              }
+                            }
+                          }
+                        }
+                        .td-data {
+                          font-size: 14px;
+                          padding-block: 12px 12px;
+                          padding-inline: 11px 10px;
+                          text-align: end;
+                          text-transform: none;
+                          white-space: nowrap;
+                          border-bottom: 1px solid;
+                          border-bottom-color: #e6eaef;
+                          span {
+                            font-size: 14px;
+                            text-align: end;
+                            text-transform: none;
+                            white-space: nowrap;
+                          }
+                          .td-data-last {
+                            color: #b8b8b8;
+                            display: inline-block;
+                            letter-spacing: 0.5px;
+                            margin-inline-end: 5px;
+                            margin-inline-start: 5px;
+                            text-align: start;
+                            text-transform: none;
+                            font: 14px;
+                            white-space: nowrap;
+                          }
+
+                          .blue {
+                            color: $blue;
+                          }
+                          .green {
+                            color: $green100;
+                          }
+                          .red {
+                            color: $red;
+                          }
+                        }
+                        .td-data-last-icon {
+                          padding-inline-end: 53px;
+                          &::before {
+                            background-image: url("../../../assets/images/neutral-arrow..svg");
+                            background-position-y: 50%;
+                            content: "";
+                            padding-inline-start: 15px;
+                            background-repeat: no-repeat;
+                          }
+                        }
+                        .buy-data {
+                          padding-inline-end: 53px;
+                          &::before {
+                            background-image: url("../../../assets/images/buy-arrow..svg");
+                            background-position-y: 50%;
+                            content: "";
+                            padding-inline-start: 15px;
+                            background-repeat: no-repeat;
+                          }
+                        }
+                        .sell-data {
+                          padding-inline-end: 53px;
+                          &::before {
+                            background-image: url("../../../assets/images/sell-arrow.svg");
+                            background-position-y: 50%;
+                            content: "";
+                            padding-inline-start: 15px;
+                            background-repeat: no-repeat;
+                          }
+                        }
+                        .td-more-details {
+                          border-bottom: 1px solid #e6eaef;
+                          box-sizing: border-box;
+                          padding: 0;
+                          width: 40px;
+                          min-width: 40px;
+                          max-width: 40px;
+                        }
+                      }
+                      .tr:hover {
+                        background-color: $white500;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -509,6 +509,7 @@ export default function Tagline() {
           </defs>
         </svg>
       </div>
+      
       </div>
     </section>
   );

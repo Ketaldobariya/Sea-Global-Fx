@@ -4,8 +4,8 @@
 @use "../../../scss/typography/typography.scss" as *;
 
 section {
-  .comman-banner {
-    background-image: url("../../../assets/images/hero-bg.png");
+  .comman-banner-forex-market{
+    background-image: url("../../../assets/images/common-banner\ \(forex-market\).png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,7 +14,7 @@ section {
     @media (max-width: 1024px) {
       height: auto;
       padding: 120px 0 0;
-      background-position: 0;
+      background-position: bottom;
     }
     .left-alignment {
       padding-left: max(20px, 50vw - 670px);
@@ -141,6 +141,7 @@ section {
             img {
               pointer-events: none;
               width: 100%;
+              display: block;
               @media (max-width: 1024px) {
                 max-width: 60%;
               }
@@ -151,6 +152,21 @@ section {
           }
         }
       }
+      .forex-grid-banner{
+        grid-template-columns: 1fr 470px;
+        @media (max-width: 1024px) {
+          grid-template-columns: 1fr;
+          gap: 40px;
+          height: auto;
+        }
+      }
+    }
+    .left-alignment-padding{
+        padding-right: 80px;
+        @media (max-width:1024px) {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
     }
   }
 }
