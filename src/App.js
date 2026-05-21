@@ -6,19 +6,21 @@ import Whatsapp from './components/whatsapp';
 import Accountsection from './routes/account';
 import ForexMarket from './routes/forexMarket';
 import Homepage from './routes/homepage';
+import Partners from './routes/partners';
 import Platforms from './routes/platforms';
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Platforms/>
+      {/* <Header/> */}
+      <Partners/>
+      {/* <Platforms/> */}
       {/* <Accountsection/> */}
       {/* <ForexMarket/> */}
       {/* <Homepage/> */}
-      <Whatsapp/>
-      <Footer/>
-      <Copyright/>
+      {/* <Whatsapp/> */}
+      {/* <Footer/> */}
+      {/* <Copyright/> */}
     </div>
   );
 }

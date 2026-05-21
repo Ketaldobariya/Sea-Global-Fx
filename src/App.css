@@ -30,6 +30,10 @@ p {
   max-width: 1129px;
   margin: 0 auto;
 }
+.container-xs8{
+  max-width: 1060px;
+  margin: 0 auto;
+}
 button {
   cursor: pointer;
 }

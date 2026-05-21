@@ -1,0 +1,107 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .WhyPartner-section {
+    background: $black20;
+    padding: 100px 0;
+    position: relative;
+    @media (max-width: 568px) {
+      padding: 60px 0;
+    }
+    .WhyPartner-black-background {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      img {
+        width: 100%;
+      }
+    }
+    .container-xl {
+      padding: 0 20px;
+      .WhyPartner-title {
+        padding: 0 0 32px;
+        h2 {
+          color: $white;
+          text-align: center;
+          font-family: GCarturmDemo-SemiBold;
+          @include font48;
+          span {
+            background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+            -webkit-text-fill-color: #0000;
+            -webkit-background-clip: text;
+            background-clip: text;
+          }
+          @media (max-width: 568px) {
+            font-size: 30px;
+            line-height: 40px;
+          }
+        }
+      }
+      .WhyPartner-grid-box {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        display: grid;
+        @media (max-width: 1024px) {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 568px) {
+          grid-template-columns: repeat(1, 1fr);
+        }
+        .WhyPartner-grid-items {
+          -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+          background: linear-gradient(#ffffff1a 0%, #fff0 100%);
+          border-radius: 24px;
+          padding: 24px;
+          position: relative;
+          &::before {
+            content: "";
+            -webkit-mask-composite: xor;
+            pointer-events: none;
+            background: linear-gradient(#fff3 0%, #0000 100%);
+            border-radius: 24px;
+            padding: 1px;
+            transition: all 0.3s ease-in-out;
+            position: absolute;
+            inset: 0;
+            -webkit-mask-image:
+              linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+            -webkit-mask-position:
+              0 0,
+              0 0;
+            -webkit-mask-size: auto, auto;
+            -webkit-mask-repeat: repeat, repeat;
+            -webkit-mask-clip: content-box, border-box;
+            -webkit-mask-origin: content-box, border-box;
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            -webkit-mask-source-type: auto, auto;
+            mask-mode: match-source, match-source;
+          }
+          .WhyPartner-iconCenter {
+            justify-content: center;
+            padding: 0 0 18px;
+            display: flex;
+          }
+          p {
+            color: $white;
+            text-align: center;
+            text-transform: capitalize;
+            font-family: Euclid-Medium;
+            @include font24;
+            font-weight: 500;
+          }
+        }
+        .WhyPartner-grid-items:hover {
+          &::before {
+            background: linear-gradient(320deg, #ffffffb3 0%, #0000 100%);
+          }
+        }
+      }
+    }
+  }
+}
