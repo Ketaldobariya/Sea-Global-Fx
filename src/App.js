@@ -6,12 +6,14 @@ import Whatsapp from './components/whatsapp';
 import Accountsection from './routes/account';
 import ForexMarket from './routes/forexMarket';
 import Homepage from './routes/homepage';
+import Platforms from './routes/platforms';
 
 function App() {
   return (
     <div>
       <Header/>
-      <Accountsection/>
+      <Platforms/>
+      {/* <Accountsection/> */}
       {/* <ForexMarket/> */}
       {/* <Homepage/> */}
       <Whatsapp/>

@@ -1,0 +1,34 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .platformVideo-Section {
+    background: $white300;
+    padding: 100px 0;
+    @media (max-width:568px){
+        padding: 60px 0;
+    }
+    @media (max-width:320px){
+        padding: 40px 0;
+    }
+    .container-xl {
+      padding: 0 20px;
+      iframe {
+        border: none;
+        border-end-end-radius: 12px;
+        outline: none;
+        width: 100%;
+        height: 700px;
+        display: block;
+        @media (max-width:568px) {
+            height: 300px;
+        }
+        @media (max-width:320px) {
+            height: 160px;
+        }
+      }
+    }
+  }
+}

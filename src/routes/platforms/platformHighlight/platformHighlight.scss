@@ -1,0 +1,128 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .platformHighlight-section {
+    background: $black20;
+    padding: 100px 0;
+    @media (max-width: 568px) {
+      padding: 60px 0 0 0;
+    }
+    .container-xl {
+      padding: 0 20px;
+      .platformHighlight-grid {
+        grid-template-columns: 664px 1fr;
+        align-items: center;
+        gap: 70px;
+        display: grid;
+        @media (max-width: 1024px) {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+        div {
+          .platformHighlight-left-image {
+            img {
+              width: 100%;
+            }
+          }
+        }
+        div {
+          h2 {
+            -webkit-text-fill-color: #0000;
+            background: linear-gradient(
+              93deg,
+              #fff 0%,
+              #f1f1f1 24.34%,
+              #ddd 52.49%,
+              #f1f1f1 71.46%,
+              #fff 99.25%
+            );
+            -webkit-background-clip: text;
+            background-clip: text;
+            margin: 0 0 32px;
+            font-family: GCarturmDemo-SemiBold;
+            @include font48;
+            span {
+              background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+              -webkit-text-fill-color: #0000;
+              -webkit-background-clip: text;
+              background-clip: text;
+            }
+            @media (max-width: 568px) {
+              text-align: center;
+              margin: 0 0 30px;
+              font-size: 30px;
+              line-height: 40px;
+            }
+          }
+          .platformHighlight-boxgrid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            padding: 0 0 100px;
+            display: grid;
+            @media (max-width: 568px) {
+              grid-template-columns: repeat(1, 1fr);
+              gap: 20px;
+              padding: 0 0 140px;
+            }
+            .platformHighlight-item {
+              transform-style: preserve-3d;
+              background: linear-gradient(#ffffff1a 0%, #fff0 100%);
+              border-radius: 24px;
+              padding: 34px 24px 24px;
+              transition:
+                transform 0.3s,
+                box-shadow 0.3s;
+              position: relative;
+              transform: perspective(1000px) rotateX(0) rotateY(0);
+              &::before {
+                content: "";
+                -webkit-mask-composite: xor;
+                pointer-events: none;
+                background: linear-gradient(#fff3 0%, #0000 100%);
+                border-radius: 24px;
+                padding: 1px;
+                transition: all 0.3s ease-in-out;
+                position: absolute;
+                inset: 0;
+                -webkit-mask-image:
+                  linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+                -webkit-mask-position:
+                  0 0,
+                  0 0;
+                -webkit-mask-size: auto, auto;
+                -webkit-mask-repeat: repeat, repeat;
+                -webkit-mask-clip: content-box, border-box;
+                -webkit-mask-origin: content-box, border-box;
+                -webkit-mask-composite: xor;
+                mask-composite: exclude;
+                -webkit-mask-source-type: auto, auto;
+                mask-mode: match-source, match-source;
+              }
+              h3 {
+                color: $white200;
+                margin: 0 0 12px;
+                font-family: GCarturmDemo-Regular;
+                @include font20;
+              }
+              p {
+                color: $black300;
+                font-family: Euclid-primary;
+                @include font16;
+                font-weight: 300;
+                line-height: 105%;
+              }
+            }
+            .platformHighlight-item:hover {
+              &::before {
+                background: linear-gradient(320deg, #ffffffb3 0%, #0000 100%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
