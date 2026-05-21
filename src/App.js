@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header/>
       <ForexMarket/>
-      <Homepage/>
+      {/* <Homepage/> */}
       <Whatsapp/>
       <Footer/>
       <Copyright/>

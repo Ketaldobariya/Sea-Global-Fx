@@ -3,9 +3,102 @@
 @use "../../../scss/theme/theme.scss" as *;
 @use "../../../scss/typography/typography.scss" as *;
 
-section{
-
-    .tradingHours-section{
-        
+section {
+  .tradingHours-section {
+    padding: 100px 0;
+    @media (max-width: 568px) {
+      padding: 60px 0 100px;
     }
+    .container-xl {
+      padding: 0 20px;
+      .tradingHours-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+        display: grid;
+        @media (max-width: 568px) {
+          grid-template-columns: 1fr;
+        }
+        .tradingHours-card {
+          border-right: 1px solid $white600;
+          padding: 20px 20px 30px;
+          @media (max-width: 568px) {
+            border-right: none;
+            border-bottom: 1px solid $white600;
+            padding: 24px 0;
+          }
+          h3 {
+            background: linear-gradient(
+              93deg,
+              #252525 0%,
+              #4e4e4e 24.34%,
+              #4e4e4e 52.49%,
+              #4e4e4e 71.46%,
+              #252525 99.25%
+            );
+            -webkit-text-fill-color: #0000;
+            text-align: center;
+            -webkit-background-clip: text;
+            background-clip: text;
+            margin: 0 0 8px;
+            font-family: GCarturmDemo-SemiBold;
+            @include font24;
+            @media (max-width: 568px) {
+              font-size: 20px;
+            }
+          }
+          h4 {
+            text-align: center;
+            background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+            -webkit-text-fill-color: #0000;
+            -webkit-background-clip: text;
+            background-clip: text;
+            margin: 0 0 4px;
+            font-family: Euclid-primary;
+            @include font16;
+            font-weight: 400;
+            line-height: 105%;
+          }
+          p {
+            color: $black300;
+            text-align: center;
+            font-family: Euclid-primary;
+            @include font16;
+            font-weight: 400;
+            line-height: 105%;
+            @media (max-width: 568px) {
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+          ul {
+            margin: 0;
+            padding: 0 0 0 20px;
+            li {
+              color: $black300;
+              font-family: Euclid-primary;
+              @include font16;
+              font-weight: 400;
+              line-height: 105%;
+              &::marker {
+                unicode-bidi: isolate;
+                font-variant-numeric: tabular-nums;
+                text-transform: none;
+                text-indent: 0px !important;
+                text-align: start !important;
+                text-align-last: auto !important;
+              }
+              @media (max-width: 568px) {
+                font-size: 16px;
+                line-height: 22px;
+              }
+            }
+          }
+        }
+        .last-card-border {
+          border-right: none;
+          border-bottom: none;
+        }
+      }
+    }
+  }
 }
