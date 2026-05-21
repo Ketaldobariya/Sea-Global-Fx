@@ -9,7 +9,7 @@ export default function Herosection() {
     <section>
       <div className="comman-banner-forex-market">
         <div className="left-alignment left-alignment-padding">
-          <div className="hero-section-grid account-grid-banner">
+          <div className="account-grid-banner">
             <div className="hero-grid-items-left">
               <div className="grid-items-text">
                 <div
