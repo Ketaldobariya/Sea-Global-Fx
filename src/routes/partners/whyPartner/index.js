@@ -14,28 +14,28 @@ export default function WhyPartner(){
                 </div>
                 <div className="container-xl">
                     <div className="WhyPartner-title">
-                        <h2>Why Partner With <span> Sea Global FX? </span></h2>
+                        <h2 className="animate__animated animate__fadeInUp wow" data-wow-offset="100"  data-wow-delay="0.1s">Why Partner With <span> Sea Global FX? </span></h2>
                     </div>
                     <div className="WhyPartner-grid-box">
-                        <div className="WhyPartner-grid-items">
+                        <div className="WhyPartner-grid-items animate__animated animate__fadeInUp wow" data-wow-offset="100"  data-wow-delay="0.2s">
                             <div className="WhyPartner-iconCenter">
                                 <img src={Competitive} alt="Competitive"/>
                             </div>
                             <p>Competitive IB Commissions</p>
                         </div>
-                        <div className="WhyPartner-grid-items">
+                        <div className="WhyPartner-grid-items animate__animated animate__fadeInUp wow" data-wow-offset="100"  data-wow-delay="0.3s">
                             <div className="WhyPartner-iconCenter">
                                 <img src={Transparent} alt="Transparent"/>
                             </div>
                             <p>Transparent Reporting</p>
                         </div>
-                        <div className="WhyPartner-grid-items">
+                        <div className="WhyPartner-grid-items animate__animated animate__fadeInUp wow" data-wow-offset="100"  data-wow-delay="0.4s">
                             <div className="WhyPartner-iconCenter">
                                 <img src={Global} alt="Global"/>
                             </div>
                             <p>Global Client Reach</p>
                         </div>
-                        <div className="WhyPartner-grid-items">
+                        <div className="WhyPartner-grid-items animate__animated animate__fadeInUp wow" data-wow-offset="100"  data-wow-delay="0.5s">
                             <div className="WhyPartner-iconCenter">
                                 <img src={Support} alt="Support"/>
                             </div>

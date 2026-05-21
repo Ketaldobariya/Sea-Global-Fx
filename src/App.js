@@ -12,15 +12,15 @@ import Platforms from './routes/platforms';
 function App() {
   return (
     <div>
-      {/* <Header/> */}
+      <Header/>
       <Partners/>
       {/* <Platforms/> */}
       {/* <Accountsection/> */}
       {/* <ForexMarket/> */}
       {/* <Homepage/> */}
-      {/* <Whatsapp/> */}
-      {/* <Footer/> */}
-      {/* <Copyright/> */}
+      <Whatsapp/>
+      <Footer/>
+      <Copyright/>
     </div>
   );
 }

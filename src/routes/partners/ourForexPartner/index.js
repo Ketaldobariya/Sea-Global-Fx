@@ -15,7 +15,7 @@ export default function OurForexPartner() {
         </div>
         <div className="container-xs8">
           <div className="ourForexPartner-title">
-            <h2>
+            <h2 className="animate__animated animate__fadeInUp wow" data-wow-offset="100"  data-wow-delay="0.2s">
               Our Forex Partner <span> Program </span>
             </h2>
           </div>
