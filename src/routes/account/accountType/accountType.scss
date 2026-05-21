@@ -1,0 +1,253 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .accounttype-section {
+    background-color: $black20;
+    padding: 100px 0;
+    position: relative;
+    @media (max-width: 568px) {
+      padding: 60px 0 0 0;
+    }
+    .account-background-image {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .container-xl {
+      padding: 0 20px;
+      .account-type-G-title {
+        padding: 0 0 130px;
+        @media (max-width: 568px) {
+          padding: 0 0 30px;
+        }
+        h2 {
+          background: linear-gradient(
+            93deg,
+            #252525 0%,
+            #4e4e4e 24.34%,
+            #4e4e4e 52.49%,
+            #4e4e4e 71.46%,
+            #252525 99.25%
+          );
+          text-align: center;
+          -webkit-text-fill-color: $white;
+          -webkit-background-clip: text;
+          background-clip: text;
+          margin: 0 0 8px;
+          font-family: GCarturmDemo-SemiBold;
+          @include font48;
+          color: $white;
+          @media (max-width: 568px) {
+            @include font30;
+          }
+          span {
+            background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+            -webkit-text-fill-color: #0000;
+            -webkit-background-clip: text;
+            background-clip: text;
+          }
+          color: $white;
+        }
+        p {
+          @include font20;
+          font-family: Euclid-primary;
+          margin: 0 auto;
+          text-align: center;
+          max-width: 903px;
+          color: $black300;
+          @media (max-width: 568px) {
+            font-size: 16px;
+            line-height: 22px;
+          }
+        }
+      }
+      .account-type-cards {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        padding: 0 0 80px;
+        display: grid;
+        @media (max-width: 1024px) {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 60px 24px;
+        }
+        @media (max-width: 568px) {
+          grid-template-columns: 1fr;
+          gap: 40px;
+          padding: 0 0 60px;
+        }
+        .account-bottom-card {
+          opacity: 1;
+          transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+          box-shadow: none;
+          height: 100%;
+          transform-style: preserve-3d;
+          will-change: transform;
+          transition:
+            transform 0.3s,
+            box-shadow 0.3s;
+          transition: all 0.3s ease-in-out;
+          .accountType-blackbox-card {
+            background: linear-gradient(#ffffff1a 41.83%, #fff0 100%);
+            border-radius: 24px;
+            height: 100%;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+            &::before {
+              content: "";
+              content: "";
+              border-radius: 24px;
+              border-radius: inherit;
+              -webkit-mask-composite: xor;
+              pointer-events: none;
+              background: linear-gradient(#0003 0%, #fff0 100%);
+              padding: 1px;
+              transition: all 0.3s ease-in-out;
+              position: absolute;
+              inset: 0;
+              -webkit-mask-image:
+                linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+              -webkit-mask-position:
+                0 0,
+                0 0;
+              -webkit-mask-size: auto, auto;
+              -webkit-mask-repeat: repeat, repeat;
+              -webkit-mask-clip: content-box, border-box;
+              -webkit-mask-origin: content-box, border-box;
+              -webkit-mask-composite: xor;
+              mask-composite: exclude;
+              -webkit-mask-source-type: auto, auto;
+              mask-mode: match-source, match-source;
+            }
+            .card-header {
+              transform: translate(0px, 0px) scale(1);
+              background: linear-gradient(
+                93deg,
+                #252525 0%,
+                #4e4e4e 24.34%,
+                #4e4e4e 52.49%,
+                #4e4e4e 71.46%,
+                #252525 99.25%
+              );
+              will-change: transform;
+              border-radius: 24px 24px 0 0;
+              padding: 24px;
+              transition: transform 0.3s ease-in-out;
+              h3 {
+                color: $white;
+                text-align: center;
+                font-family: GCarturmDemo-SemiBold;
+                @include font24;
+              }
+            }
+            .card-header-yelllow {
+              background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+            }
+            .card-bottom-details {
+              padding: 20px 32px;
+              .card-bottom-paragraph {
+                border-bottom: 1px solid $black500;
+                padding: 0 0 24px;
+                p {
+                  color: $black300;
+                  font-family: Euclid-primary;
+                  @include font16;
+                  font-weight: 400;
+                  line-height: 105%;
+                }
+              }
+              .card-bottom-allTextStyle {
+                padding: 24px 0 0 0;
+                .accountType-text-flex {
+                  justify-content: space-between;
+                  align-items: center;
+                  padding: 0 0 20px;
+                  display: flex;
+                  position: relative;
+                  p {
+                    color: $black300;
+                    font-family: Euclid-primary;
+                    @include font20;
+                  }
+                  span {
+                    color: $black400;
+                    text-align: right;
+                    font-family: Euclid-SemiBold;
+                    @include font20;
+                    font-weight: 600;
+                    display: block;
+                  }
+                  .text-span-white{
+                    color: $white;
+                  }
+                }
+              }
+            }
+            .accountType-grid-button {
+              justify-content: center;
+              display: flex;
+              position: relative;
+              .buton-left-design {
+                position: absolute;
+                top: 55%;
+                left: 0;
+                transform: translateY(-50%);
+                svg {
+                  max-width: 155px;
+                }
+              }
+              .button-right-design {
+                position: absolute;
+                top: 55%;
+                right: 0;
+                transform: translateY(-50%);
+                svg {
+                  max-width: 155px;
+                }
+              }
+              a {
+                button {
+                  color: $black400;
+                  cursor: pointer;
+                  background: $white;
+                  border: none;
+                  border-radius: 48px;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 10px;
+                  padding: 4px 16px 4px 4px;
+                  font-family: Euclid-SemiBold;
+                  @include font16;
+                  font-weight: 600;
+                  display: flex;
+                  img {
+                    -webkit-user-drag: none;
+                    user-drag: none;
+                  }
+                }
+                .card-header-yelllow {
+                  background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+                }
+              }
+            }
+          }
+          .accountType-blackbox-card:hover {
+            transform: scale(0.99) translateY(-5px);
+            .card-header {
+              transform: scale(1.05);
+            }
+          }
+        }
+        .center-card-direction {
+          margin-top: -90px;
+          @media (max-width: 1024px) {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}
