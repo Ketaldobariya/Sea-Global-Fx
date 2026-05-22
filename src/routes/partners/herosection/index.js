@@ -54,7 +54,7 @@ export default function Herosection() {
             </div>
             <div className="hero-grid-items-right">
               <div className="hero-right-image">
-                <img src={Partners} alt="Partners" />
+                <img className="animate__animated animate__fadeInRight wow" data-wow-offset="100"  data-wow-delay="0.1s" src={Partners} alt="Partners" />
               </div>
             </div>
           </div>

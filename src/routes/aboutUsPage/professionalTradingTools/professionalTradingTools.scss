@@ -1,0 +1,127 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .ProfessionalTradingTools-section {
+    padding: 110px 0;
+    background-color: $white300;
+    border-bottom: 1px solid $black900;
+    @media (max-width: 568px) {
+      padding: 60px 0;
+    }
+    .container-xl {
+      padding: 0 20px;
+      .ProfessionalTradingTools-gridbox {
+        grid-template-columns: 1fr 700px;
+        align-items: center;
+        gap: 80px;
+        display: grid;
+        @media (max-width: 1024px) {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+        .ProfessionalTradingTools-image-container {
+          @media (max-width: 1024px) {
+            order: 2;
+          }
+          .ProfessionalTradingTools-image-animation {
+            animation: mobile-move infinite 4s;
+          }
+          @keyframes mobile-move {
+            0% {
+              transform: translateY(0);
+            }
+
+            50% {
+              transform: translateY(-11px) scale(1.02);
+            }
+
+            100% {
+              transform: translateY(0);
+            }
+          }
+        }
+        .ProfessionalTradingTools-text-container {
+          .ProfessionalTradingTools-heading {
+            padding: 0 0 32px;
+            h2 {
+              background: linear-gradient(
+                93deg,
+                #252525 0%,
+                #4e4e4e 24.34%,
+                #4e4e4e 52.49%,
+                #4e4e4e 71.46%,
+                #252525 99.25%
+              );
+              -webkit-text-fill-color: #0000;
+              -webkit-background-clip: text;
+              background-clip: text;
+              margin: 0 0 8px;
+              font-family: GCarturmDemo-SemiBold;
+              @include font48;
+              span {
+                background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+                -webkit-text-fill-color: #0000;
+                -webkit-background-clip: text;
+                background-clip: text;
+              }
+              @media (max-width: 568px) {
+                @include font30;
+                margin: 0;
+              }
+            }
+            p {
+              color: $black300;
+              font-family: Euclid-primary;
+              @include font20;
+              @media (max-width: 568px) {
+                font-size: 16px;
+                line-height: 22px;
+              }
+            }
+          }
+          .ProfessionalTradingTools-subbox-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0 24px;
+            max-width: 500px;
+            display: grid;
+            @media (max-width: 568px) {
+              grid-template-columns: 1fr;
+            }
+            .ProfessionalTradingTools-subbox-grid-item {
+              transform-style: preserve-3d;
+              perspective: 1000px;
+              opacity: 1;
+              transform: none;
+              background: linear-gradient(#0000001a 0%, #0000 100%);
+              border-radius: 24px;
+              padding: 28px 22px;
+              transition: all 0.8s ease-in-out;
+              h3 {
+                color: $black400;
+                max-width: 190px;
+                margin: 0 0 12px;
+                font-family: Euclid-primary;
+                @include font20;
+              }
+              p {
+                color: $black300;
+                font-family: Euclid-primary;
+                @include font16;
+                font-weight: 300;
+                line-height: 105%;
+              }
+            }
+            .ProfessionalTradingTools-subbox-grid-item:hover {
+              transform: translateY(-8px) scale(1.03) rotateX(6deg)
+                rotateY(-6deg);
+              transition: all 0.8s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+}

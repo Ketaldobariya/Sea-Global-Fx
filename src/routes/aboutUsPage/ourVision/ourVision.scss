@@ -4,10 +4,14 @@
 @use "../../../scss/typography/typography.scss" as *;
 
 section {
-  .partnerTool-section {
+  .ourVision-section {
     background: $black20;
+    padding: 100px 0;
     position: relative;
-    .background-layer {
+    @media (max-width: 568px) {
+      padding: 60px 0;
+    }
+    .backlayer {
       width: 100%;
       position: absolute;
       top: 0;
@@ -16,84 +20,64 @@ section {
         width: 100%;
       }
     }
-    .container-xl {
+    .container-sm {
       padding: 0 20px;
-      @media (max-width:1050px){
-        padding: 0;
-      }
-      .partnerTool-grid {
-        grid-template-columns: 542px 1fr;
-        align-items: center;
-        gap: 70px;
+      .ourVision-grid {
+        grid-template-columns: 1fr 305px;
+        gap: 100px;
         display: grid;
-        @media (max-width:1050px) {
-            grid-template-columns: 1fr;
-            gap: 40px;
+        @media (max-width: 1024px) {
+          grid-template-columns: 1fr;
+          gap: 60px;
         }
-        .partnerTool-items {
-          height: 100%;
-          .partnerTool-items-image {
-            height: 100%;
+        div {
+          .ourVision-subgrid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 22px;
+            display: grid;
             position: relative;
-            img {
-              height: 100%;
-              width: 100%;
+            @media (max-width: 568px) {
+              grid-template-columns: 1fr;
             }
-          }
-          .partnerTool-text {
-            padding: 100px 0;
-             @media (max-width:1050px){
-                padding: 50px 20px;
-             }
-             @media (max-width:568px) {
-                padding: 0 20px;
-             }
-            h2 {
-              -webkit-text-fill-color: #0000;
-              background: linear-gradient(
-                93deg,
-                #fff 0%,
-                #f1f1f1 24.34%,
-                #ddd 52.49%,
-                #f1f1f1 71.46%,
-                #fff 99.25%
-              );
-              -webkit-background-clip: text;
-              background-clip: text;
-              margin: 0 0 32px;
-              font-family: GCarturmDemo-SemiBold;
-              @include font48;
-              span {
-                background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+            div {
+              h3 {
                 -webkit-text-fill-color: #0000;
+                background: linear-gradient(
+                  93deg,
+                  #fff 0%,
+                  #f1f1f1 24.34%,
+                  #ddd 52.49%,
+                  #f1f1f1 71.46%,
+                  #fff 99.25%
+                );
                 -webkit-background-clip: text;
                 background-clip: text;
+                margin: 0 0 24px;
+                font-family: GCarturmDemo-SemiBold;
+                @include font48;
+                span {
+                  background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+                  -webkit-text-fill-color: #0000;
+                  -webkit-background-clip: text;
+                  background-clip: text;
+                }
+                @media (max-width: 568px) {
+                  margin: 0 0 20px;
+                  font-size: 30px;
+                  line-height: 40px;
+                }
+                @media (max-width: 320px){
+                    text-align: center;
+                }
               }
-              @media (max-width:568px){
-                font-size: 30px;
-                line-height: 40px;
-              }
-            }
-            .partnerTool-grid-box {
-              grid-template-columns: repeat(2, 1fr);
-              gap: 16px;
-              display: grid;
-              @media (max-width:568px){
-                grid-template-columns: 1fr;
-                gap: 20px;
-              }
-              .partnerTool-grid-box-items {
+              .visionmision-items {
                 transform-style: preserve-3d;
                 background: linear-gradient(#ffffff1a 0%, #fff0 100%);
                 border-radius: 24px;
-                grid-template-columns: 24px 1fr;
-                align-items: center;
-                gap: 10px;
-                padding: 28px 22px;
+                padding: 34px 24px 24px;
                 transition:
                   transform 0.3s,
                   box-shadow 0.3s;
-                display: grid;
                 position: relative;
                 transform: perspective(1000px) rotateX(0) rotateY(0);
                 &::before {
@@ -120,21 +104,31 @@ section {
                   -webkit-mask-source-type: auto, auto;
                   mask-mode: match-source, match-source;
                 }
-                svg {
-                  width: 24;
-                  height: 24;
-                  fill: none;
-                }
                 p {
                   color: $white200;
                   font-family: Euclid-primary;
                   @include font20;
+                  @media (max-width: 568px) {
+                    font-size: 16px;
+                    line-height: 22px;
+                  }
                 }
               }
-              .partnerTool-grid-box-items:hover {
+              .visionmision-items:hover {
                 &::before {
                   background: linear-gradient(320deg, #ffffffb3 0%, #0000 100%);
                 }
+              }
+            }
+          }
+        }
+        div {
+          .over-vision-image {
+            img {
+              width: 100%;
+              position: relative;
+              @media (max-width:1024px) {
+                width: auto;
               }
             }
           }

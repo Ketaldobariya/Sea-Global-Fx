@@ -31,8 +31,8 @@ export default function Herosection(){
                             </div>
                         </div>
                         <div className="hero-grid-items-right">
-                            <div className="hero-right-image">
-                                <img src={ForexBanner} alt="ForexBanner"/>
+                            <div className="hero-right-image ">
+                                <img className=" animate__animated animate__fadeInRight wow" data-wow-offset="100"  data-wow-delay="0.1s" src={ForexBanner} alt="ForexBanner"/>
                             </div>
                         </div>
                     </div>

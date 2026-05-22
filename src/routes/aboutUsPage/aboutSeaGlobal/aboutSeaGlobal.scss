@@ -1,0 +1,75 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .aboutSeaGlobal-section {
+    padding: 80px 0;
+    @media (max-width:568px) {
+        padding: 60px 0;
+    }
+    .container-sm {
+      padding: 0 20px;
+      .aboutSeaGlobal-grid {
+        grid-template-columns: 1fr 635px;
+        align-items: center;
+        gap: 60px;
+        display: grid;
+        @media (max-width:1024px) {
+            grid-template-columns: 1fr;
+        }
+        @media (max-width:568px){
+            gap: 40px;
+        }
+        .aboutSeaGlobal-grid-items {
+            @media (max-width:568px){
+                order: 2;
+            }
+          .aboutSeaGlobal-grid-items-image {
+            img {
+              max-width: 100%;
+            }
+          }
+        }
+        .aboutSeaGlobal-grid-items-text {
+          h2 {
+            background: linear-gradient(
+              93deg,
+              #252525 0%,
+              #4e4e4e 24.34%,
+              #4e4e4e 52.49%,
+              #4e4e4e 71.46%,
+              #252525 99.25%
+            );
+            -webkit-text-fill-color: #0000;
+            -webkit-background-clip: text;
+            background-clip: text;
+            margin: 0 0 8px;
+            font-family: GCarturmDemo-SemiBold;
+            @include font48;
+            span {
+              background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+              -webkit-text-fill-color: #0000;
+              -webkit-background-clip: text;
+              background-clip: text;
+            }
+            @media (max-width:568px){
+                @include font30;
+            }
+          }
+          p {
+            color:$black300;
+            margin: 0 0 20px;
+            font-family: Euclid-primary;
+            @include font20;
+             @media (max-width:568px){
+                font-size: 16px;
+                line-height: 22px;
+             }
+          }
+        }
+      }
+    }
+  }
+}
