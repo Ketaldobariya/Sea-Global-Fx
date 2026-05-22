@@ -6,6 +6,7 @@ import Whatsapp from './components/whatsapp';
 import AboutUsPage from './routes/aboutUsPage';
 import Accountsection from './routes/account';
 import BlogsPage from './routes/blogsPage';
+import ContectUsPage from './routes/contectUsPage';
 import ForexMarket from './routes/forexMarket';
 import Homepage from './routes/homepage';
 import Partners from './routes/partners';
@@ -15,7 +16,8 @@ function App() {
   return (
     <div>
       {/* <Header/> */}
-      <BlogsPage/>
+      <ContectUsPage/>
+      {/* <BlogsPage/> */}
       {/* <AboutUsPage/> */}
       {/* <Partners/> */}
       {/* <Platforms/> */}

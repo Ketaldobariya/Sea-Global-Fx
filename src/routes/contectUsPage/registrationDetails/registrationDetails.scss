@@ -1,0 +1,110 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .registrationDetails-section {
+    padding: 100px 0 0;
+    position: relative;
+    @media (max-width: 568px) {
+      padding: 60px 0 0;
+    }
+    .container-sm {
+      padding: 0 20px;
+      .registrationDetails-text-container {
+        max-width: 560px;
+        h2 {
+          background: linear-gradient(
+            93deg,
+            #252525 0%,
+            #4e4e4e 24.34%,
+            #4e4e4e 52.49%,
+            #4e4e4e 71.46%,
+            #252525 99.25%
+          );
+          -webkit-text-fill-color: #0000;
+          -webkit-background-clip: text;
+          background-clip: text;
+          margin: 0 0 27px;
+          font-family: GCarturmDemo-Medium;
+          @include font40;
+          span {
+            background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+            -webkit-text-fill-color: #0000;
+            -webkit-background-clip: text;
+            background-clip: text;
+          }
+          @media (max-width: 568px) {
+            margin: 0 0 40px;
+            font-size: 30px;
+            line-height: 40px;
+          }
+        }
+        .registrationDetails-text-alignment {
+          padding: 0 0 40px;
+          .registrationDetails-text {
+            padding: 0 0 27px;
+            &:last-child {
+              padding: 0;
+            }
+            h3 {
+              color: $black300;
+              margin: 0 0 16px;
+              font-family: Euclid-SemiBold;
+              @include font24;
+              line-height: 100%;
+            }
+            p {
+              color: $black300;
+              max-width: 450px;
+              font-family: Euclid-primary;
+              @include font20;
+              line-height: 100%;
+              @media (max-width:568px){
+            font-size: 16px;
+            line-height: 22px;
+         }
+            }
+          }
+        }
+        .registrationDetails-outline-image {
+          img {
+            display: block;
+            @media (max-width: 1024px) {
+              max-width: 300px;
+            }
+            @media (max-width: 768px) {
+              max-width: 200px;
+            }
+            @media (max-width:568px){
+            display: none;
+         }
+          }
+        }
+      }
+    }
+    .registrationDetails-rightImage {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      @media (max-width:568px){
+        position: inherit;
+      }
+      img {
+        max-width: 760px;
+        display: block;
+        @media (max-width: 1024px) {
+          max-width: 500px;
+        }
+        @media (max-width: 768px) {
+          max-width: 400px;
+        }
+         @media (max-width:568px){
+            max-width: 100%;
+            width: 100%;
+         }
+      }
+    }
+  }
+}
