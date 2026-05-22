@@ -85,25 +85,25 @@ export default function Footer() {
                 <p>Registered Address: 1st Floor, The Sotheby Building,, Rodney Bay, Gros-Islet, Castries, Saint Lucia – 838</p>
                 <p>Physical Address:<br/>1st Floor, The Sotheby Building,, Rodney Bay, Gros-Islet, Castries, Saint Lucia – 838</p>
                 <p>Registration Number: 2025- 00352</p>
-                <a href="#" aria-label="mail">Email: support@seaglobalfx.com</a>
+                <a href="/" aria-label="mail">Email: support@seaglobalfx.com</a>
                 <a href="callto:+919586818795" aria-label="phone number">Phone: <br/>+971 58 261 9955</a>
             </div>
             <div className="footer-center-content">
                 <h3>Quick Links</h3>
                 <div className="footer-title-underline"></div>
-                <a href="#" aria-label="link">Accounts</a>
-                <a href="#" aria-label="link">Platforms</a>
-                <a href="#" aria-label="link">Blogs</a>
-                <a href="#" aria-label="link">About Us</a>
-                <a href="#" aria-label="link">Trading Solutions</a>
+                <a href="/" aria-label="link">Accounts</a>
+                <a href="/" aria-label="link">Platforms</a>
+                <a href="/" aria-label="link">Blogs</a>
+                <a href="/" aria-label="link">About Us</a>
+                <a href="/" aria-label="link">Trading Solutions</a>
             </div>
             <div className="footer-center-content">
                  <h3>Support</h3>
                 <div className="footer-title-underline"></div>
-                <a href="#" aria-label="link">Terms of Service</a>
-                <a href="#" aria-label="link">Privacy Policy</a>
-                <a href="#" aria-label="link">Telegram Group</a>
-                <a href="#" aria-label="link">Refund Policy</a>
+                <a href="/" aria-label="link">Terms of Service</a>
+                <a href="/" aria-label="link">Privacy Policy</a>
+                <a href="/" aria-label="link">Telegram Group</a>
+                <a href="/" aria-label="link">Refund Policy</a>
             </div>
           </div>
           <div className="footer-rightside">

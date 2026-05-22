@@ -50,7 +50,7 @@ export default function IbProgramWork() {
             </div>
           </div>
           <div className="account-center-button animate__animated animate__fadeInUp wow" data-wow-offset="50"  data-wow-delay="0.9s">
-            <a href="#" aria-label="account button" target="_blank">
+            <a href="/" aria-label="account button" target="_blank">
                 <Openaccountbtn/>
             </a>
           </div>

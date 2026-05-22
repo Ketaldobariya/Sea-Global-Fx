@@ -24,7 +24,7 @@ export default function WaysToReach() {
               <div className="waysToReach-icon-center">
                 <img src={EmailFill} alt="email-fill" />
               </div>
-              <a href="#" aria-label="#">
+              <a href="/" aria-label="#">
                 support@seaglobalfx.com
               </a>
             </div>
@@ -34,7 +34,7 @@ export default function WaysToReach() {
               <div className="waysToReach-icon-center">
                 <img src={Call} alt="Call" />
               </div>
-              <a href="#" aria-label="#">
+              <a href="/" aria-label="#">
                 +971 58 261 9955
               </a>
             </div>
@@ -44,7 +44,7 @@ export default function WaysToReach() {
               <div className="waysToReach-icon-center">
                 <img src={Clock} alt="Clock-fill" />
               </div>
-              <a href="#" aria-label="#">
+              <a href="/" aria-label="#">
                 support@seaglobalfx.com
               </a>
             </div>

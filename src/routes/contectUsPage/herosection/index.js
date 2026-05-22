@@ -34,7 +34,7 @@ export default function Herosection() {
                   At Paradise Global Markets, open communication and reliable support are part of how we work. Whether you have a question about your account, need platform assistance, or want to explore partnership opportunities, our team is here to help.
                 </p>
                 <div className="towbutton-alignment">
-                  <a href="#" aria-label="Open Account" target="_blank ">
+                  <a href="/" aria-label="Open Account" target="_blank ">
                     <div
                       className="animate__animated animate__fadeInUp wow"
                       data-wow-offset="100"
@@ -43,7 +43,7 @@ export default function Herosection() {
                       <Openaccountbtn />
                     </div>
                   </a>
-                  <a href="#" aria-label="Try Demo" target="_blank">
+                  <a href="/" aria-label="Try Demo" target="_blank">
                     <div
                       className="animate__animated animate__fadeInUp wow"
                       data-wow-offset="100"

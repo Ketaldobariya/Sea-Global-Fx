@@ -44,7 +44,7 @@ export default function GetInTouch(){
                                 <div className="getInTouch-checkboxText">
                                     <input type="checkbox" name="agree"/>
                                     <p>You agree to our friendly 
-                                        <a href="#" aria-label="#">Privacy policy.</a>
+                                        <a href="/" aria-label="#">Privacy policy.</a>
                                     </p>
                                 </div>
                                 <div className="getInTouch-sendMessage">

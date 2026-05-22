@@ -11,7 +11,7 @@ export default function Herosection() {
         <div className="container-xl">
           <div className="herosection-top-gridbox">
             <div className="herosection-top-gridbox-items">
-              <a href="#" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank">
                 <div className="herosection-top-items-image">
                   <img src={RSI} alt="RSI" />
                 </div>
@@ -32,7 +32,7 @@ export default function Herosection() {
             </div>
             <div className="herosection-top-gridbox-right-items">
               <div className="herosection-top-subgridbox-twocol-grid">
-                <a className="herosection-items-imgbox" href="#" aria-label="#" target="_blank">
+                <a className="herosection-items-imgbox" href="/" aria-label="#" target="_blank">
                   <div className="herosection-subbox-image-container">
                     <img src={Chart} alt="Chart" />
                   </div>
@@ -51,7 +51,7 @@ export default function Herosection() {
                     </div>
                   </div>
                 </a>
-                <a className="herosection-items-imgbox" href="#" aria-label="#" target="_blank">
+                <a className="herosection-items-imgbox" href="/" aria-label="#" target="_blank">
                   <div className="herosection-subbox-image-container">
                     <img src={ForexLaptop} alt="ForexLaptop" />
                   </div>
@@ -69,7 +69,7 @@ export default function Herosection() {
                     </div>
                   </div>
                 </a>
-                <a className="herosection-items-imgbox" href="#" aria-label="#" target="_blank">
+                <a className="herosection-items-imgbox" href="/" aria-label="#" target="_blank">
                   <div className="herosection-subbox-image-container">
                     <img src={Calculate} alt="Calculate" />
                   </div>

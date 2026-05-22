@@ -17,7 +17,7 @@ export default function MarketsOverview(){
                             <h2><span>Markets</span> Overview</h2>
                         </div>
                         <div className="market-items-cards animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="0.2s">
-                            <a href="#" aria-label="market-card">
+                            <a href="/" aria-label="market-card">
                                 <div className="market-card-image">
                                     <img src={Forex} alt="Forex"/>
                                 </div>
@@ -28,7 +28,7 @@ export default function MarketsOverview(){
                             </a>
                         </div>
                         <div className="market-items-cards animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="0.4s">
-                            <a href="#" aria-label="market-card">
+                            <a href="/" aria-label="market-card">
                                 <div className="market-card-image">
                                     <img src={Indices} alt="Indices"/>
                                 </div>
@@ -39,7 +39,7 @@ export default function MarketsOverview(){
                             </a>
                         </div>
                         <div className="market-items-cards animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="0.6s">
-                            <a href="#" aria-label="market-card">
+                            <a href="/" aria-label="market-card">
                                 <div className="market-card-image">
                                     <img src={Commodities} alt="Commodities"/>
                                 </div>
@@ -50,7 +50,7 @@ export default function MarketsOverview(){
                             </a>
                         </div>
                          <div className="market-items-cards animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="0.8s">
-                            <a href="#" aria-label="market-card">
+                            <a href="/" aria-label="market-card">
                                 <div className="market-card-image">
                                     <img src={Stocks} alt="Stocks"/>
                                 </div>
@@ -61,7 +61,7 @@ export default function MarketsOverview(){
                             </a>
                         </div>
                         <div className="market-items-cards animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="1s">
-                            <a href="#" aria-label="market-card">
+                            <a href="/" aria-label="market-card">
                                 <div className="market-card-image">
                                     <img src={Crypto} alt="Crypto"/>
                                 </div>
@@ -72,7 +72,7 @@ export default function MarketsOverview(){
                             </a>
                         </div>
                         <div className="market-items-cards animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="1.2s">
-                            <a href="#" aria-label="market-card">
+                            <a href="/" aria-label="market-card">
                                 <div className="market-card-image">
                                     <img src={ETFs} alt="ETFs"/>
                                 </div>

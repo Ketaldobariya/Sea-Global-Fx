@@ -37,7 +37,7 @@ export default function Herosection() {
                   technology, and partner success.
                 </p>
                 <div className="towbutton-alignment">
-                  <a href="#" aria-label="Open Account" target="_blank ">
+                  <a href="/" aria-label="Open Account" target="_blank ">
                     <div
                       className="open-account-btn animate__animated animate__fadeInUp wow"
                       data-wow-offset="100"

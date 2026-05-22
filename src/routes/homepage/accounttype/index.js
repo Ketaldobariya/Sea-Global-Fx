@@ -170,7 +170,7 @@ export default function Accounttype() {
                       </defs>
                     </svg>
                   </div>
-                  <a href="#" aria-label="open Account btn" target="_blank">
+                  <a href="/" aria-label="open Account btn" target="_blank">
                     <button>
                       <img src={BlackArro} alt="BlackArro" />
                       Open Account
@@ -327,7 +327,7 @@ export default function Accounttype() {
                       </defs>
                     </svg>
                   </div>
-                  <a href="#" aria-label="open Account btn" target="_blank">
+                  <a href="/" aria-label="open Account btn" target="_blank">
                     <button className="card-header-yelllow">
                       <img src={PrimaryArro} alt="PrimaryArro" />
                       Open Account
@@ -485,7 +485,7 @@ export default function Accounttype() {
                       </defs>
                     </svg>
                   </div>
-                  <a href="#" aria-label="open Account btn" target="_blank">
+                  <a href="/" aria-label="open Account btn" target="_blank">
                     <button>
                       <img src={BlackArro} alt="BlackArro" />
                       Open Account

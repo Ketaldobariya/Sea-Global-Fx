@@ -157,7 +157,7 @@ export default function OurForexPartner() {
                     </defs>
                   </svg>
                 </div>
-                <a href="#" aria-label="#" target="_blank">
+                <a href="/" aria-label="#" target="_blank">
                   <button>
                     <img src={BlackArrow} alt="BlackArrow" />
                     Open Account

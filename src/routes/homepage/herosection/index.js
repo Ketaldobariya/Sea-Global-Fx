@@ -17,12 +17,12 @@ export default function Herosection(){
                                 <h1 className="animate__animated animate__fadeInUp wow" data-wow-offset="100"  data-wow-delay="0.5s">Institutional-Grade Trading for <span> Global </span> Markets</h1>
                                 <p className="animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="0.9s">Experience tight spreads with high-speed execution. Trade in a secure, fully regulated trading environment.</p>
                                 <div className="towbutton-alignment">
-                                    <a href="#" aria-label="Open Account" target="_blank ">
+                                    <a  href="/"aria-label="Open Account" target="_blank ">
                                         <div className="animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="1s">
                                         <Openaccountbtn/>
                                         </div>
                                     </a>
-                                    <a href="#" aria-label="Try Demo" target="_blank">
+                                    <a href="/" aria-label="Try Demo" target="_blank">
                                         <div className="animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="1.5s">
                                         <Trydemo/>
                                         </div>

@@ -16,14 +16,14 @@ function App() {
   return (
     <div>
       <Header/>
+      <Homepage/>
+      <ForexMarket/>
+      <Accountsection/>
+      <Platforms/>
+      <Partners/>
+      <AboutUsPage/>
+      <BlogsPage/>
       <ContectUsPage/>
-      {/* <BlogsPage/> */}
-      {/* <AboutUsPage/> */}
-      {/* <Partners/> */}
-      {/* <Platforms/> */}
-      {/* <Accountsection/> */}
-      {/* <ForexMarket/> */}
-      {/* <Homepage/> */}
       <Whatsapp/>
       <Footer/>
       <Copyright/>
