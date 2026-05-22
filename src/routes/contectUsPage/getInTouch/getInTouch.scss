@@ -1,0 +1,182 @@
+@use "../../../scss/main.scss" as *;
+@use "../../../scss/font/font.scss" as *;
+@use "../../../scss/theme/theme.scss" as *;
+@use "../../../scss/typography/typography.scss" as *;
+
+section {
+  .getInTouch-section {
+    background: $black20;
+    padding: 110px 0;
+    @media (max-width:568px){
+        padding: 60px 0 0;
+    }
+    .container-xs6 {
+      padding: 0 20px;
+      @media (max-width:568px){
+        padding: 0;
+      }
+      .getInTouch-grid {
+        grid-template-columns: 350px 1fr;
+        gap: 32px;
+        max-width: 930px;
+        margin: 0 auto;
+        display: grid;
+        @media (max-width: 1024px) {
+          grid-template-columns: 1fr;
+          gap: 60px;
+        }
+        .getInTouch-grid-items {
+            @media (max-width:568px) {
+                padding: 0 20px;
+            }
+          .getInTouch-grid-items-title {
+            padding: 0 0 40px;
+            @media (max-width:568px) {
+                padding: 0 0 30px;
+            }
+            h2 {
+              color: $white300;
+              font-family: GCarturmDemo-Medium;
+              @include font40;
+              span {
+                background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+                -webkit-text-fill-color: #0000;
+                -webkit-background-clip: text;
+                background-clip: text;
+              }
+              @media (max-width:568px) {
+                @include font30;
+              }
+            }
+          }
+          .getInTouch-list-card {
+            .getInTouch-list {
+              background: $black1100;
+              border-radius: 24px;
+              margin: 0 0 16px;
+              padding: 24px;
+              p {
+                color: $white;
+                text-align: center;
+                font-family: Euclid-primary;
+                @include font24;
+                font-weight: 400;
+                line-height: 32px;
+              }
+            }
+          }
+        }
+        .getInTouch-grid-item {
+          .getInTouch-grid-items-box {
+            background: $black1200;
+            border-radius: 20px;
+            padding: 30px;
+            @media (max-width: 1024px) {
+              max-width: 500px;
+              margin: 0 auto;
+            }
+            @media (max-width: 568px) {
+              border-radius: 0;
+              max-width: 100%;
+              padding: 30px 20px 60px;
+            }
+            h3 {
+              color: $white;
+              margin: 0 0 18px;
+              font-family: Euclid-Medium;
+              @include font24;
+              font-weight: 500;
+              line-height: 32px;
+            }
+            .getInTouch-input {
+              flex-direction: column;
+              padding: 0 0 8px;
+              display: flex;
+              input {
+                border: 1px solid $white900;
+                background: $white800;
+                width: 100%;
+                height: 48px;
+                color: $black20;
+                border-radius: 8px;
+                outline: none;
+                padding: 12px 16px;
+                font-family: Euclid-primary;
+                @include font16;
+                font-weight: 400;
+                line-height: 24px;
+                transition: all 0.3s ease-in-out;
+              }
+              textarea {
+                order: 1px solid $white900;
+                background: $white800;
+                width: 100%;
+                height: 140px;
+                color: $black20;
+                resize: none;
+                border-radius: 8px;
+                outline: none;
+                padding: 12px 16px;
+                font-family: Euclid-primary;
+                @include font16;
+                font-weight: 400;
+                line-height: 24px;
+                transition: all 0.3s ease-in-out;
+              }
+            }
+            .getInTouch-checkboxText {
+              align-items: center;
+              gap: 12px;
+              padding: 0 0 20px;
+              display: flex;
+              input {
+                width: 16px;
+                height: 16px;
+                margin: 0;
+                padding: 0;
+              }
+              p {
+                color: $grey500;
+                font-family: Euclid-primary;
+                @include font14;
+                font-weight: 400;
+                line-height: 20px;
+                a {
+                  background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
+                  -webkit-text-fill-color: #0000;
+                  -webkit-background-clip: text;
+                  background-clip: text;
+                  font-family: Euclid-Medium;
+                }
+              }
+            }
+            .getInTouch-sendMessage {
+              button {
+                cursor: pointer;
+                background: var(
+                  --Primary,
+                  linear-gradient(90deg, #e8bc33 10%, #b07a09 100%)
+                );
+                color: $black;
+                cursor: pointer;
+                border: none;
+                border-radius: 32.168px;
+                padding: 9px 21px;
+                font-family: Euclid-Bold;
+                font-size: 15.441px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                transition: all 0.3s ease-in-out;
+              }
+              button:hover {
+                background: linear-gradient(90deg, #b07a09 10%, #e8bc33 100%);
+                transform: scale(1.05);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

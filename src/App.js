@@ -15,7 +15,7 @@ import Platforms from './routes/platforms';
 function App() {
   return (
     <div>
-      {/* <Header/> */}
+      <Header/>
       <ContectUsPage/>
       {/* <BlogsPage/> */}
       {/* <AboutUsPage/> */}
@@ -24,9 +24,9 @@ function App() {
       {/* <Accountsection/> */}
       {/* <ForexMarket/> */}
       {/* <Homepage/> */}
-      {/* <Whatsapp/> */}
-      {/* <Footer/> */}
-      {/* <Copyright/> */}
+      <Whatsapp/>
+      <Footer/>
+      <Copyright/>
     </div>
   );
 }

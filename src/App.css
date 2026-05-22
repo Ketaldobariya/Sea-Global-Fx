@@ -22,16 +22,20 @@ p {
   max-width: 1280px;
   margin: 0 auto;
 }
-.container-sm{
+.container-sm {
   max-width: 1334px;
   margin: 0 auto;
 }
-.container-xs2{
+.container-xs2 {
   max-width: 1129px;
   margin: 0 auto;
 }
-.container-xs8{
+.container-xs8 {
   max-width: 1060px;
+  margin: 0 auto;
+}
+.container-xs6 {
+  max-width: 1010px;
   margin: 0 auto;
 }
 button {
