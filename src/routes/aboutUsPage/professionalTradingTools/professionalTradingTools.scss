@@ -27,9 +27,9 @@ section {
             order: 2;
           }
           .ProfessionalTradingTools-image-animation {
-            animation: mobile-move infinite 4s;
+            animation: Chart-move infinite 4s;
           }
-          @keyframes mobile-move {
+          @keyframes Chart-move {
             0% {
               transform: translateY(0);
             }
