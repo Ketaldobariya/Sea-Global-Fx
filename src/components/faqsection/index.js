@@ -1,4 +1,3 @@
-import react from "react";
 import "./faqsection.scss";
 import Down from "../../assets/images/down.svg";
 export default function Faqsection() {

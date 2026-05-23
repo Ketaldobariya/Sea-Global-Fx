@@ -1,4 +1,3 @@
-import React from "react";
 import Herosection from "./herosection";
 import Tagline from "../homepage/tagline";
 import WhyTradeWithForex from "./whyTradeWithForex";

@@ -1,4 +1,3 @@
-import React from "react";
 import "./availableInstruments.scss";
 import CA from "../../../assets/images/CA.svg";
 import AU from "../../../assets/images/AU.svg";
@@ -474,7 +473,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -522,7 +521,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -570,7 +569,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -618,7 +617,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -666,7 +665,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -714,7 +713,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -762,7 +761,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -810,7 +809,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -858,7 +857,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -906,7 +905,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -954,7 +953,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1002,7 +1001,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1050,7 +1049,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1098,7 +1097,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1146,7 +1145,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1194,7 +1193,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1242,7 +1241,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1290,7 +1289,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1338,7 +1337,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1386,7 +1385,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1434,7 +1433,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1482,7 +1481,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1530,7 +1529,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1578,7 +1577,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1626,7 +1625,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1674,7 +1673,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1722,7 +1721,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1770,7 +1769,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1818,7 +1817,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1866,7 +1865,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1914,7 +1913,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -1962,7 +1961,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2010,7 +2009,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2058,7 +2057,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2106,7 +2105,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2154,7 +2153,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2202,7 +2201,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2250,7 +2249,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2298,7 +2297,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2346,7 +2345,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2394,7 +2393,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2442,7 +2441,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2490,7 +2489,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2538,7 +2537,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2586,7 +2585,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2634,7 +2633,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2682,7 +2681,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2730,7 +2729,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2778,7 +2777,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2826,7 +2825,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2874,7 +2873,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2922,7 +2921,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -2970,7 +2969,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3018,7 +3017,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3066,7 +3065,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3114,7 +3113,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3162,7 +3161,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3210,7 +3209,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3258,7 +3257,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3306,7 +3305,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3354,7 +3353,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3402,7 +3401,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3450,7 +3449,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3498,7 +3497,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3546,7 +3545,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3594,7 +3593,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3642,7 +3641,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3690,7 +3689,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3738,7 +3737,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3786,7 +3785,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3834,7 +3833,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3882,7 +3881,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3930,7 +3929,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -3978,7 +3977,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4026,7 +4025,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4074,7 +4073,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4122,7 +4121,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4170,7 +4169,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4218,7 +4217,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4266,7 +4265,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4314,7 +4313,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4362,7 +4361,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4410,7 +4409,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4458,7 +4457,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4506,7 +4505,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4554,7 +4553,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4602,7 +4601,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4650,7 +4649,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4698,7 +4697,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4746,7 +4745,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4794,7 +4793,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4842,7 +4841,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4890,7 +4889,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4938,7 +4937,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -4986,7 +4985,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5034,7 +5033,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5082,7 +5081,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5130,7 +5129,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5178,7 +5177,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5226,7 +5225,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5274,7 +5273,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5322,7 +5321,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5370,7 +5369,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5418,7 +5417,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5466,7 +5465,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5514,7 +5513,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5562,7 +5561,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5610,7 +5609,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5658,7 +5657,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5706,7 +5705,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5754,7 +5753,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5802,7 +5801,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5850,7 +5849,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5898,7 +5897,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5946,7 +5945,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -5994,7 +5993,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6042,7 +6041,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6090,7 +6089,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6138,7 +6137,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6186,7 +6185,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6234,7 +6233,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6282,7 +6281,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6330,7 +6329,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6378,7 +6377,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6426,7 +6425,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6474,7 +6473,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6522,7 +6521,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6570,7 +6569,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6618,7 +6617,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6666,7 +6665,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6714,7 +6713,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6762,7 +6761,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6810,7 +6809,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6858,7 +6857,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6906,7 +6905,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -6954,7 +6953,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7002,7 +7001,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7050,7 +7049,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7098,7 +7097,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7146,7 +7145,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7194,7 +7193,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7242,7 +7241,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7290,7 +7289,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7338,7 +7337,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7386,7 +7385,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7434,7 +7433,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7482,7 +7481,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7530,7 +7529,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7578,7 +7577,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7626,7 +7625,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7674,7 +7673,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7722,7 +7721,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7770,7 +7769,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7818,7 +7817,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7866,7 +7865,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7914,7 +7913,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -7962,7 +7961,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8010,7 +8009,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8058,7 +8057,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8106,7 +8105,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8154,7 +8153,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8202,7 +8201,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8250,7 +8249,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8298,7 +8297,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8346,7 +8345,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8394,7 +8393,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8442,7 +8441,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8490,7 +8489,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8538,7 +8537,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8586,7 +8585,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8634,7 +8633,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8682,7 +8681,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8730,7 +8729,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8778,7 +8777,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8826,7 +8825,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8874,7 +8873,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>
@@ -8922,7 +8921,7 @@ export default function AvailableInstruments() {
                                   />
                                 </span>
                                 <div className="symbol-container-description">
-                                  <a href="/" aria-label="#" target="_blank">
+                                  <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                                     AUDCAD
                                   </a>
                                 </div>

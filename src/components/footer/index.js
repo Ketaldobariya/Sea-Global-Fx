@@ -1,4 +1,3 @@
-import React from "react";
 import "./footer.scss";
 import FooterLogo from "../../assets/logo/footer-logo.svg";
 export default function Footer() {
@@ -19,7 +18,7 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/"
                 aria-label="facebook"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <div className="footer-icon-round">
                   <svg
@@ -39,7 +38,7 @@ export default function Footer() {
               <a
                 href="https://x.com/"
                 aria-label="twitter"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <div className="footer-icon-round">
                   <svg
@@ -59,7 +58,7 @@ export default function Footer() {
               <a
                 href="https://www.instagram.com/"
                 aria-label="Instagram"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <div className="footer-icon-round">
                   <svg

@@ -1,4 +1,3 @@
-import react from "react";
 import "./getInTouch.scss"
 export default function GetInTouch(){
     return(

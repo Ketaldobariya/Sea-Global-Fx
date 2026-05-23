@@ -1,4 +1,3 @@
-import react from "react";
 import "./whyTradeWithForex.scss"
 import Liquidity from "../../../assets/images/Liquidity.svg"
 import Access from "../../../assets/images/Access.svg"

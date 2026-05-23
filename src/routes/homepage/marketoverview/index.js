@@ -1,4 +1,3 @@
-import React from "react";
 import "./marketoverview.scss";
 import Forex from "../../../assets/images/forex.png"
 import Indices from "../../../assets/images/Indices.png"

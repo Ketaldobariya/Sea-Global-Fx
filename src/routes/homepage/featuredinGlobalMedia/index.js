@@ -1,4 +1,3 @@
-import react from "react";
 import "./featuredinGlobalMedia.scss";
 import Marquee from "react-fast-marquee";
 import AP from "../../../assets/images/ap-icon.png";
@@ -29,42 +28,42 @@ export default function FeaturedinGlobalMedia() {
           </div>
           <div className="feautured-section-right-items">
             <Marquee className="marquee" pauseOnHover direction="left" speed={30}>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={AP} alt="AP"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Silogonew} alt="Silogonew"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={DigitalJournal} alt="DigitalJournal"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Fcon} alt="Fcon"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={TechBullionLogo} alt="TechBullionLogo"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={MarketsInsider} alt="MarketsInsider"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Manilalogomain} alt="Manilalogomain"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Marketwatch} alt="Marketwatch"/>
                 </div>
@@ -72,42 +71,42 @@ export default function FeaturedinGlobalMedia() {
             </Marquee>
              <div className="marquee-padding"></div>
             <Marquee className="marquee" pauseOnHover direction="right" speed={30}>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={AP} alt="AP"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Silogonew} alt="Silogonew"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={DigitalJournal} alt="DigitalJournal"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Fcon} alt="Fcon"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={TechBullionLogo} alt="TechBullionLogo"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={MarketsInsider} alt="MarketsInsider"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Manilalogomain} alt="Manilalogomain"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Marketwatch} alt="Marketwatch"/>
                 </div>
@@ -115,42 +114,42 @@ export default function FeaturedinGlobalMedia() {
             </Marquee>
             <div className="marquee-padding"></div>
             <Marquee className="marquee" pauseOnHover direction="left" speed={30}>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Fcon} alt="Fcon"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={TechBullionLogo} alt="TechBullionLogo"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={MarketsInsider} alt="MarketsInsider"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={AP} alt="AP"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Silogonew} alt="Silogonew"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={DigitalJournal} alt="DigitalJournal"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Manilalogomain} alt="Manilalogomain"/>
                 </div>
               </a>
-              <a href="/" aria-label="#" target="_blank">
+              <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                 <div className="marquee-light-box">
                     <img src={Marketwatch} alt="Marketwatch"/>
                 </div>

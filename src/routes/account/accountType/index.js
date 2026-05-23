@@ -1,6 +1,4 @@
-import react from "react";
 import "./accountType.scss";
-import BlackArro from "../../../assets/images/black-arrow.svg";
 import Whitearrow from "../../../assets/images/white-arrow.svg";
 import PrimaryArro from "../../../assets/images/arrow-primary.svg"
 import LayerBlack from "../../../assets/images/layer-black.png"
@@ -183,7 +181,7 @@ export default function AccountType() {
                       </defs>
                     </svg>
                   </div>
-                  <a href="/" aria-label="open Account btn" target="_blank">
+                  <a href="/" aria-label="open Account btn" target="_blank" rel="noreferrer">
                     <button>
                       <img src={Whitearrow} alt="Whitearrow" />
                       Open Account
@@ -345,7 +343,7 @@ export default function AccountType() {
                       </defs>
                     </svg>
                   </div>
-                  <a href="/" aria-label="open Account btn" target="_blank">
+                  <a href="/" aria-label="open Account btn" target="_blank" rel="noreferrer">
                     <button className="card-header-yelllow">
                       <img src={PrimaryArro} alt="PrimaryArro" />
                       Open Account
@@ -508,7 +506,7 @@ export default function AccountType() {
                       </defs>
                     </svg>
                   </div>
-                  <a href="/" aria-label="open Account btn" target="_blank">
+                  <a href="/" aria-label="open Account btn" target="_blank" rel="noreferrer">
                     <button>
                       <img src={PrimaryArro} alt="PrimaryArro" />
                       Open Account

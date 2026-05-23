@@ -1,4 +1,3 @@
-import react from "react";
 import Herosection from "./herosection";
 import Tagline from "../homepage/tagline";
 import PlatformVideoSection from "./platformVideoSection";

@@ -1,4 +1,3 @@
-import react from "react";
 import "./onemarket.scss"
 import Thinkpade from "../../../assets/images/thinkpad.png";
 import Mobile from "../../../assets/images/mobile.png";

@@ -1,9 +1,7 @@
-import react from "react";
 import "./herosection.scss";
 import Openaccountbtn from "../../../components/openaccountbtn";
 import Trydemo from "../../../components/trydemo";
 import CompanyBanner from "../../../assets/images/company-banner.png";
-import User from "../../../assets/images/user.svg";
 export default function Herosection() {
   return (
     <section>
@@ -37,12 +35,12 @@ export default function Herosection() {
                   environment.
                 </p>
                  <div className="towbutton-alignment">
-                                                    <a href="/" aria-label="Open Account" target="_blank ">
+                                                    <a href="/" aria-label="Open Account" target="_blank" rel="noreferrer">
                                                         <div className="animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="1s">
                                                         <Openaccountbtn/>
                                                         </div>
                                                     </a>
-                                                    <a href="/" aria-label="Try Demo" target="_blank">
+                                                    <a href="/" aria-label="Try Demo" target="_blank" rel="noreferrer">
                                                         <div className="animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="1.5s">
                                                         <Trydemo/>
                                                         </div>

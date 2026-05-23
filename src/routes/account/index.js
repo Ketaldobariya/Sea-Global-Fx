@@ -1,4 +1,3 @@
-import React from "react";
 import Herosection from "./herosection";
 import OpenYourAccount from "../homepage/openYourAccount";
 import Faqsection from "../../components/faqsection";

@@ -1,4 +1,3 @@
-import react from "react";
 import "./whyChooseSeaGlobal.scss"
 import Openaccountbtn from "../../../components/openaccountbtn/index.js";
 import Disclosures from "../../../assets/images/disclosures.png";
@@ -55,7 +54,7 @@ export default function WhyChooseSeaGlobal(){
                         </div>
                       </div>
                       <div className="account-center-button animate__animated animate__fadeInUp wow" data-wow-offset="50"  data-wow-delay="0.8s">
-                        <a href="/" aria-label="account button" target="_blank">
+                        <a href="/" aria-label="account button" target="_blank" rel="noreferrer">
                             <Openaccountbtn/>
                         </a>
                       </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import "./header.scss";
 import Logo from "../../assets/logo/logo.svg";
 import Share from "../../assets/images/login share.svg"

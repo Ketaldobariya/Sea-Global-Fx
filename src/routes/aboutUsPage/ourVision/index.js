@@ -1,4 +1,3 @@
-import react from "react";
 import "./ourVision.scss"
 import BackLayer from "../../../assets/images/layer-black.png"
 import Mission from "../../../assets/images/mission.png"

@@ -1,7 +1,4 @@
-import react from "react";
 import "./herosection.scss";
-import Openaccountbtn from "../../../components/openaccountbtn";
-import Trydemo from "../../../components/trydemo";
 import Partners from "../../../assets/images/Partners.png";
 import User from "../../../assets/images/user.svg";
 export default function Herosection() {
@@ -37,7 +34,7 @@ export default function Herosection() {
                   technology, and partner success.
                 </p>
                 <div className="towbutton-alignment">
-                  <a href="/" aria-label="Open Account" target="_blank ">
+                  <a href="/" aria-label="Open Account" target="_blank" rel="noreferrer">
                     <div
                       className="open-account-btn animate__animated animate__fadeInUp wow"
                       data-wow-offset="100"

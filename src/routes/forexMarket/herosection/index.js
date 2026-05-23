@@ -1,4 +1,3 @@
-import react from "react";
 import "./herosection.scss";
 import Openaccountbtn from "../../../components/openaccountbtn";
 import Trydemo from "../../../components/trydemo";
@@ -17,12 +16,12 @@ export default function Herosection(){
                                 <h1 className="animate__animated animate__fadeInUp wow" data-wow-offset="100"  data-wow-delay="0.5s">Trade the World’s Most Liquid <span> Financial </span> Market</h1>
                                 <p className="market-paragraph-width animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="0.9s">Access global Forex markets through Sea Global’s secure trading infrastructure, offering transparent pricing, fast execution, and reliable liquidity across market conditions.</p>
                                 <div className="towbutton-alignment">
-                                    <a href="/" aria-label="Open Account" target="_blank ">
+                                    <a href="/" aria-label="Open Account" target="_blank" rel="noreferrer">
                                         <div className="animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="1s">
                                         <Openaccountbtn/>
                                         </div>
                                     </a>
-                                    <a href="/" aria-label="Try Demo" target="_blank">
+                                    <a href="/" aria-label="Try Demo" target="_blank" rel="noreferrer">
                                         <div className="animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="1.5s">
                                         <Trydemo/>
                                         </div>

@@ -1,4 +1,3 @@
-import react from "react";
 import "./openYourAccount.scss";
 import Openaccountbtn from "../../../components/openaccountbtn/index.js"
 import System from "../../../assets/images/system.png";
@@ -55,7 +54,7 @@ export default function OpenYourAccount() {
             </div>
           </div>
           <div className="account-center-button animate__animated animate__fadeInUp wow" data-wow-offset="50"  data-wow-delay="0.9s">
-            <a href="/" aria-label="account button" target="_blank">
+            <a href="/" aria-label="account button" target="_blank" rel="noreferrer">
                 <Openaccountbtn/>
             </a>
           </div>

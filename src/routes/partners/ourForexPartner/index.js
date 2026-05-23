@@ -1,4 +1,3 @@
-import react from "react";
 import "./ourForexPartner.scss";
 import Leftlayer from "../../../assets/images/left-layer.png";
 import Rightlayer from "../../../assets/images/right-layer.svg";
@@ -157,7 +156,7 @@ export default function OurForexPartner() {
                     </defs>
                   </svg>
                 </div>
-                <a href="/" aria-label="#" target="_blank">
+                <a href="/" aria-label="#" target="_blank" rel="noreferrer">
                   <button>
                     <img src={BlackArrow} alt="BlackArrow" />
                     Open Account

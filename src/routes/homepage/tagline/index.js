@@ -1,4 +1,3 @@
-import React from "react";
 import "./tagline.scss";
 import Marquee from "react-fast-marquee";
 import US from "../../../assets/images/US.svg";

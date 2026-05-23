@@ -1,4 +1,3 @@
-import react from "react";
 import "./readyToBecomeAPartner.scss";
 import Openaccountbtn from "../../../components/openaccountbtn";
 import Trydemo from "../../../components/trydemo";

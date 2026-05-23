@@ -1,4 +1,3 @@
-import React from "react";
 import "./trydemo.scss";
 import Demo from "../../assets/images/demo.svg";
 export default function Trydemo() {

@@ -1,4 +1,3 @@
-import react from "react";
 import "./tradThisMarketOn.scss"
 import Thinkpade from "../../../assets/images/thinkpadd.png";
 import Mobile from "../../../assets/images/mobile.png";

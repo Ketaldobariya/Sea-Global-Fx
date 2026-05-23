@@ -1,4 +1,3 @@
-import react from "react";
 import "./platformVideoSection.scss"
 export default function PlatformVideoSection(){
     return(

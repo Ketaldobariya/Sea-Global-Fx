@@ -1,4 +1,3 @@
-import react from "react"; 
 import "./whyseaglobal.scss";
 import Sea from "../../../assets/images/sea.png"
 import Coin from "../../../assets/images/coin.png"

@@ -1,6 +1,4 @@
-import react from "react";
 import "./latestBlog.scss";
-import Down from "../../../assets/images/down-xs.svg";
 import { ChevronDown } from "lucide-react";
 import Money from "../../../assets/images/money transfer.jpeg";
 import Currency from "../../../assets/images/Currency_Pairs_Explained_Major_Minor_Exotic_37e197a267.jpeg";
@@ -42,7 +40,7 @@ export default function LatestBlog() {
             <div className="latestBlog-title-line"></div>
           </div>
           <div className="latestBlog-card-grid">
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={Money} alt="Money" />
@@ -59,7 +57,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={Currency} alt="Currency" />
@@ -73,7 +71,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={ECN} alt="ECN" />
@@ -90,7 +88,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={Cognitive} alt="Cognitive" />
@@ -107,7 +105,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={Why_Forex} alt="Why_Forex" />
@@ -124,7 +122,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={Oil_Surge} alt="Oil_Surge" />
@@ -140,7 +138,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={Central_Bank} alt="Central_Bank" />
@@ -156,7 +154,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={Why_Gold} alt="Why_Gold" />
@@ -172,7 +170,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={ Gold_at_4_500} alt="Gold_at_4_500" />
@@ -188,7 +186,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={ Oil_Shock} alt="Oil_Shock" />
@@ -204,7 +202,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={ Geopolitical_Risk} alt="Geopolitical_Risk" />
@@ -220,7 +218,7 @@ export default function LatestBlog() {
                 </div>
               </div>
             </a>
-            <a href="/" aria-label="#" target="_blank">
+            <a href="/" aria-label="#" target="_blank" rel="noreferrer">
               <div className="latestBlog-card">
                 <div className="latestBlog-card-image">
                   <img src={CBD} alt="CBD" />

@@ -1,4 +1,3 @@
-import react from "react";
 import "./platformHighlight.scss";
 import Ipadimg from "../../../assets/images/ipad.png";
 export default function PlatformHighlight() {
