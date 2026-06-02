@@ -2,7 +2,7 @@ import React from "react";
 import "./whyPartner.scss"
 import LayerBack from "../../../assets/images/layer-black.png"
 import Competitive from "../../../assets/images/Competitive.svg"
-import Transparent from "../../../assets/images/Transparent.svg"
+import Transparent from "../../../assets/images/Transparent.png"
 import Global from "../../../assets/images/Global.svg"
 import Support from "../../../assets/images/Support.svg"
 export default function WhyPartner(){

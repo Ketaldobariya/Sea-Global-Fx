@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import Copyright from './components/copyright';
 import Footer from './components/footer';
@@ -17,13 +18,13 @@ function App() {
     <div>
       <Header/>
       <Homepage/>
-      {/* <ForexMarket/> */}
-      {/* <Accountsection/> */}
-      {/* <Platforms/> */}
-      {/* <Partners/> */}
-      {/* <AboutUsPage/> */}
-      {/* <BlogsPage/> */}
-      {/* <ContectUsPage/> */}
+      <ForexMarket/>
+      <Accountsection/>
+      <Platforms/>
+      <Partners/>
+      <AboutUsPage/>
+      <BlogsPage/>
+      <ContectUsPage/>
       <Whatsapp/>
       <Footer/>
       <Copyright/>
