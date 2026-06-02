@@ -1,3 +1,4 @@
+import React from "react";
 import "./herosection.scss";
 import Partners from "../../../assets/images/Partners.png";
 import User from "../../../assets/images/user.svg";

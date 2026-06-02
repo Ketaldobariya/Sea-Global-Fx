@@ -39,7 +39,8 @@ section {
               opacity: 1;
               transform: none;
               padding: 0 0 20px;
-              button {
+              max-width: 310px;
+              .button {
                 color: $black400;
                 text-align: center;
                 text-transform: capitalize;
@@ -138,7 +139,7 @@ section {
             align-items: flex-end;
             height: 100%;
             display: flex;
-            img {
+            video {
               pointer-events: none;
               width: 100%;
               @media (max-width: 1024px) {

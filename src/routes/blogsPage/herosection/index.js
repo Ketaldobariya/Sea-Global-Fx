@@ -1,3 +1,4 @@
+import React from "react";
 import "./herosection.scss";
 import RSI from "../../../assets/images/RSI_Indicator.jpeg";
 import Chart from "../../../assets/images/How_to_Read_MT_5_Chart.jpg";

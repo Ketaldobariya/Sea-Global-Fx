@@ -1,3 +1,4 @@
+import React from "react";
 import "./professionalTradingTools.scss";
 import ChartLine from "../../../assets/images/chart-line.png";
 export default function ProfessionalTradingTools() {

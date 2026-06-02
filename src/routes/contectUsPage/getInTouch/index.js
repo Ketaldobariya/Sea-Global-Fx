@@ -1,3 +1,4 @@
+import React from "react";
 import "./getInTouch.scss"
 export default function GetInTouch(){
     return(

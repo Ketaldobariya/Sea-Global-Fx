@@ -1,3 +1,4 @@
+import React from "react";
 import "./whyChooseSeaGlobal.scss"
 import Openaccountbtn from "../../../components/openaccountbtn/index.js";
 import Disclosures from "../../../assets/images/disclosures.png";

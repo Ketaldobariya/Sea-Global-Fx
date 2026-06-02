@@ -1,3 +1,4 @@
+import React from "react";
 import "./ourForexPartner.scss";
 import Leftlayer from "../../../assets/images/left-layer.png";
 import Rightlayer from "../../../assets/images/right-layer.svg";

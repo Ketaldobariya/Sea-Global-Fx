@@ -1,3 +1,5 @@
+
+import React from "react";
 import "./accounttype.scss";
 import BlackArro from "../../../assets/images/black-arrow.svg";
 import PrimaryArro from "../../../assets/images/arrow-primary.svg"

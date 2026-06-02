@@ -1,3 +1,4 @@
+import React from "react";
 import Herosection from "./herosection";
 import WaysToReach from "./waysToReach";
 import RegistrationDetails from "./registrationDetails";

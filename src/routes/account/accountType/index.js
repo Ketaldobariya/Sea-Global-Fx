@@ -1,3 +1,4 @@
+import React from "react";
 import "./accountType.scss";
 import Whitearrow from "../../../assets/images/white-arrow.svg";
 import PrimaryArro from "../../../assets/images/arrow-primary.svg"

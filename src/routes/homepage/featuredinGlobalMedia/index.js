@@ -1,3 +1,4 @@
+import React from "react";
 import "./featuredinGlobalMedia.scss";
 import Marquee from "react-fast-marquee";
 import AP from "../../../assets/images/ap-icon.png";

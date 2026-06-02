@@ -1,3 +1,4 @@
+import React from "react";
 import "./availableInstruments.scss";
 import CA from "../../../assets/images/CA.svg";
 import AU from "../../../assets/images/AU.svg";

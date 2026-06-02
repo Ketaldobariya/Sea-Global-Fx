@@ -1,3 +1,4 @@
+import React from "react";
 import "./registrationDetails.scss"
 import Outline from "../../../assets/images/outline-vec.png"
 import Billding from "../../../assets/images/Billding.png"

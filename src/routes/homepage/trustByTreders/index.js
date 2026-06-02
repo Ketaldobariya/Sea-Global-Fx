@@ -1,3 +1,5 @@
+
+import React from "react";
 import "./trustByTreders.scss"
 import Quote from "../../../assets/images/quote.svg"
 import Danial from "../../../assets/images/Danial.webp"

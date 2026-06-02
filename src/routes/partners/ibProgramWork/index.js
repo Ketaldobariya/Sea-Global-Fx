@@ -1,3 +1,4 @@
+import React from "react";
 import "./ibProgramWork.scss";
 import Openaccountbtn from "../../../components/openaccountbtn/index.js";
 import Register from "../../../assets/images/Register.svg";

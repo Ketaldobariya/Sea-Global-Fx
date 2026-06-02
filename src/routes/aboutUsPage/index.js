@@ -1,3 +1,4 @@
+import React from "react";
 import Herosection from "./herosection";
 import AboutSeaGlobal from "./aboutSeaGlobal";
 import OurVision from "./ourVision";

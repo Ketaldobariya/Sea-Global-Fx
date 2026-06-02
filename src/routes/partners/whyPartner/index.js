@@ -1,3 +1,4 @@
+import React from "react";
 import "./whyPartner.scss"
 import LayerBack from "../../../assets/images/layer-black.png"
 import Competitive from "../../../assets/images/Competitive.svg"

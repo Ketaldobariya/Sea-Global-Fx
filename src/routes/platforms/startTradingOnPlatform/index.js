@@ -1,3 +1,4 @@
+import React from "react";
 import "./startTradingOnPlatform.scss"
 import Openaccountbtn from "../../../components/openaccountbtn";
 import Trydemo from "../../../components/trydemo";

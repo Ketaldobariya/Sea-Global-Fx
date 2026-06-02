@@ -1,3 +1,4 @@
+import React from "react";
 import "./waysToReach.scss";
 import BackLayer from "../../../assets/images/layer-black.png";
 import EmailFill from "../../../assets/images/email-fill.svg";

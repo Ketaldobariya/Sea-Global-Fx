@@ -1,3 +1,4 @@
+import React from "react";
 import "./aboutSeaGlobal.scss";
 import About from "../../../assets/images/about.png"
 export default function AboutSeaGlobal(){

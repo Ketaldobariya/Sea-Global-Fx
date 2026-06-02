@@ -1,3 +1,4 @@
+import React from "react";
 import "./herosection.scss";
 import Openaccountbtn from "../../../components/openaccountbtn";
 import Trydemo from "../../../components/trydemo";

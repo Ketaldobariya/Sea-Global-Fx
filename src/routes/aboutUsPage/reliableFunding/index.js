@@ -1,3 +1,4 @@
+import React from "react";
 import "./reliableFunding.scss"
 import MobileBanner from "../../../assets/images/mobile-banner.png"
 export default function ReliableFunding(){

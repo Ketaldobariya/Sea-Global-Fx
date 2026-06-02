@@ -1,3 +1,4 @@
+import React from "react";
 import Herosection from "./herosection";
 import Tagline from "./tagline";
 import MarketsOverview from "./marketoverview";

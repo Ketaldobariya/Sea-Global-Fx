@@ -62,3 +62,7 @@ img {
 .wow {
   visibility: hidden;
 }
+
+body{
+    overflow-x: hidden;
+}

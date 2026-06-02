@@ -1,3 +1,4 @@
+import React from "react";
 import "./latestBlog.scss";
 import { ChevronDown } from "lucide-react";
 import Money from "../../../assets/images/money transfer.jpeg";

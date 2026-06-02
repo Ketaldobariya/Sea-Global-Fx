@@ -1,3 +1,4 @@
+import React from "react";
 import "./copyright.scss"
 export default function Copyright(){
     return(

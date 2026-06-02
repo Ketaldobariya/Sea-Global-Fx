@@ -1,3 +1,4 @@
+import React from "react";
 import "./clientFundProtection.scss";
 import BackLayer from "../../../assets/images/layer-black.png";
 import Lock from "../../../assets/images/lock.png";

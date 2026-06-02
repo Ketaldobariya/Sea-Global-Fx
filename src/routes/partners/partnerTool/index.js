@@ -1,3 +1,4 @@
+import React from "react";
 import "./partnerTool.scss"
 import BackLayer from "../../../assets/images/layer-black.png"
 import Tools from "../../../assets/images/tools.png"

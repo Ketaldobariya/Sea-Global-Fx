@@ -1,3 +1,4 @@
+import React from "react";
 import "./openYourAccount.scss";
 import Openaccountbtn from "../../../components/openaccountbtn/index.js"
 import System from "../../../assets/images/system.png";
