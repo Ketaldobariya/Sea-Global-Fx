@@ -23,12 +23,13 @@ header {
       box-shadow: inset 0 -20px 10px #ffffff40;
       .left-logo {
         display: flex;
-        a {
+        .logo {
+          display: block;
           img {
             cursor: pointer;
             max-width: 198px;
             display: block;
-            @media (max-width:568px) {
+            @media (max-width: 568px) {
               max-width: 160px;
             }
           }
@@ -47,16 +48,24 @@ header {
           }
           .market-dropdown-menu {
             position: relative;
+            display: block;
             .dropdown-menu {
               padding: 10px 0;
+              display: block;
+              display: flex;
+              flex-direction: column;
+              gap: 12px;
             }
 
-            a {
+            .dropdown-menu:hover {
               color: $black100;
               cursor: pointer;
               @include font16;
               display: block;
               transition: all 0.3s ease-in-out;
+              display: flex;
+              flex-direction: column;
+              gap: 12px;
             }
 
             .dropdown {
@@ -73,13 +82,19 @@ header {
               overflow: hidden;
               .dropdown-spacing {
                 padding: 20px;
-                a {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                .nav {
                   color: $black100;
                   padding: 0 0 16px;
                   @include font16;
                   line-height: 100%;
                   transition: all 0.3s ease-in-out;
                   font-family: Euclid-Medium;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 12px;
                   &:last-child {
                     padding: 0;
                   }
@@ -91,8 +106,9 @@ header {
             }
           }
           .market-dropdown-menu:hover {
-            a {
+           .dropdown-menu {
               color: $yellow;
+              display: block;
             }
             .dropdown {
               max-height: 100vh;
@@ -101,20 +117,20 @@ header {
               transform: none;
               opacity: 1;
               .dropdown-spacing {
-                a:hover {
+                .nav:hover {
                   color: $yellow;
                 }
               }
             }
           }
-          a {
+          .dropdown-menu {
             color: $black100;
             @include font16;
             line-height: 100%;
             transition: all 0.3s ease-in-out;
             font-family: Euclid-Medium;
           }
-          a:hover {
+          .dropdown-menu:hover {
             color: $yellow;
           }
         }
@@ -122,9 +138,9 @@ header {
           display: flex;
           align-items: center;
           gap: 24px;
-          a {
+          .login {
             text-decoration: none;
-            @media (max-width:568px) {
+            @media (max-width: 568px) {
               display: none;
             }
             button {
@@ -181,20 +197,20 @@ header {
               }
             }
           }
-            .mobile-menu {
-              display: none;
-              @media (max-width: 1024px) {
-                display: block;
-              }
-              svg {
-                height: 26px;
-                width: 26px;
-                 @media (max-width:568px){
-                  height: 24px;
-                  width: 24px;
-                 }
+          .mobile-menu {
+            display: none;
+            @media (max-width: 1024px) {
+              display: block;
+            }
+            svg {
+              height: 26px;
+              width: 26px;
+              @media (max-width: 568px) {
+                height: 24px;
+                width: 24px;
               }
             }
+          }
         }
       }
     }

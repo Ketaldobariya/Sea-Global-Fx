@@ -4,27 +4,12 @@ import Copyright from './components/copyright';
 import Footer from './components/footer';
 import Header from './components/header';
 import Whatsapp from './components/whatsapp';
-import AboutUsPage from './routes/aboutUsPage';
-import Accountsection from './routes/account';
-import BlogsPage from './routes/blogsPage';
-import ContectUsPage from './routes/contectUsPage';
-import ForexMarket from './routes/forexMarket';
-import Homepage from './routes/homepage';
-import Partners from './routes/partners';
-import Platforms from './routes/platforms';
-
+import Routways from "./components/routways";
 function App() {
   return (
     <div>
       <Header/>
-      <Homepage/>
-      <ForexMarket/>
-      <Accountsection/>
-      <Platforms/>
-      <Partners/>
-      <AboutUsPage/>
-      <BlogsPage/>
-      <ContectUsPage/>
+      <Routways />
       <Whatsapp/>
       <Footer/>
       <Copyright/>

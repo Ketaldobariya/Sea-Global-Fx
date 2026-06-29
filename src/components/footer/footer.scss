@@ -109,7 +109,7 @@ footer {
             transition: all 0.3s ease-in-out;
             display: block;
           }
-          a {
+          .menu-text {
             color: $black300;
             max-width: 161px;
             margin: 0 0 12px;
@@ -118,7 +118,7 @@ footer {
             transition: all 0.3s ease-in-out;
             display: block;
           }
-          a:hover {
+          .menu-text:hover {
             color: #fff;
           }
         }
@@ -198,7 +198,7 @@ footer {
               font-weight: 600;
             }
           }
-          span {
+          label{
             color: #fff;
             font-size: 12px;
             font-style: normal;

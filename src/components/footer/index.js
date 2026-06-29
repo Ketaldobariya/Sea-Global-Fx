@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.scss";
 import FooterLogo from "../../assets/logo/footer-logo.svg";
+import { NavLink } from "react-router";
 export default function Footer() {
   return (
     <footer>
@@ -16,7 +17,7 @@ export default function Footer() {
               infrastructure and transparent trading conditions.
             </p>
             <div className="footer-socialmedia">
-              <a
+              <NavLink
                 href="https://www.facebook.com/"
                 aria-label="facebook"
                 target="_blank" rel="noreferrer"
@@ -35,8 +36,8 @@ export default function Footer() {
                     />
                   </svg>
                 </div>
-              </a>
-              <a
+              </NavLink>
+              <NavLink
                 href="https://x.com/"
                 aria-label="twitter"
                 target="_blank" rel="noreferrer"
@@ -55,8 +56,8 @@ export default function Footer() {
                     />
                   </svg>
                 </div>
-              </a>
-              <a
+              </NavLink>
+              <NavLink
                 href="https://www.instagram.com/"
                 aria-label="Instagram"
                 target="_blank" rel="noreferrer"
@@ -75,7 +76,7 @@ export default function Footer() {
                     />
                   </svg>
                 </div>
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="footer-center">
@@ -85,25 +86,25 @@ export default function Footer() {
                 <p>Registered Address: 1st Floor, The Sotheby Building,, Rodney Bay, Gros-Islet, Castries, Saint Lucia – 838</p>
                 <p>Physical Address:<br/>1st Floor, The Sotheby Building,, Rodney Bay, Gros-Islet, Castries, Saint Lucia – 838</p>
                 <p>Registration Number: 2025- 00352</p>
-                <a href="/" aria-label="mail">Email: support@seaglobalfx.com</a>
-                <a href="callto:+919586818795" aria-label="phone number">Phone: <br/>+971 58 261 9955</a>
+                <NavLink to="/" className="menu-text"  aria-label="mail">Email: support@seaglobalfx.com</NavLink>
+                <NavLink href="callto:+919586818795" className="menu-text"  aria-label="phone number">Phone: <br/>+971 58 261 9955</NavLink>
             </div>
             <div className="footer-center-content">
                 <h3>Quick Links</h3>
                 <div className="footer-title-underline"></div>
-                <a href="/" aria-label="link">Accounts</a>
-                <a href="/" aria-label="link">Platforms</a>
-                <a href="/" aria-label="link">Blogs</a>
-                <a href="/" aria-label="link">About Us</a>
-                <a href="/" aria-label="link">Trading Solutions</a>
+                <NavLink className="menu-text" to="/accounts" aria-label="link">Accounts</NavLink>
+                <NavLink to="/platforms" className="menu-text"  aria-label="link">Platforms</NavLink>
+                <NavLink to="/blogs" className="menu-text"  aria-label="link">Blogs</NavLink>
+                <NavLink to="/about-us" className="menu-text"  aria-label="link">About Us</NavLink>
+                <NavLink to="/" className="menu-text"  aria-label="link">Trading Solutions</NavLink>
             </div>
             <div className="footer-center-content">
                  <h3>Support</h3>
                 <div className="footer-title-underline"></div>
-                <a href="/" aria-label="link">Terms of Service</a>
-                <a href="/" aria-label="link">Privacy Policy</a>
-                <a href="/" aria-label="link">Telegram Group</a>
-                <a href="/" aria-label="link">Refund Policy</a>
+                <NavLink to="/" className="menu-text"  aria-label="link">Terms of Service</NavLink>
+                <NavLink to="/" className="menu-text"  aria-label="link">Privacy Policy</NavLink>
+                <NavLink to="/" className="menu-text"  aria-label="link">Telegram Group</NavLink>
+                <NavLink to="/" className="menu-text"  aria-label="link">Refund Policy</NavLink>
             </div>
           </div>
           <div className="footer-rightside">
@@ -116,8 +117,8 @@ export default function Footer() {
                 </div>
              </div>
              <div className="footer-checkbox-text">
-                <input type="checkbox"/>
-                <span>I agree to the Privacy Policy</span>
+                <input type="checkbox" id="privacy-policy"/>
+                <label htmlFor="privacy-policy">I agree to the Privacy Policy</label>
              </div>
           </div>
         </div>

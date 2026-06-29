@@ -32,17 +32,17 @@ export default function GetInTouch(){
                   data-wow-delay="0s">
                             <form className="getInTouch-grid-items-box">
                                 <h3>Let’s Connect</h3>
-                                <div className="getInTouch-input">
+                                <div className="getInTouch-input" id="name">
                                     <input type="text" placeholder="Your Name" name="name"/>
                                 </div>
-                                <div className="getInTouch-input">
-                                    <input type="text" placeholder="Email Address" name="Email"/>
+                                <div className="getInTouch-input" >
+                                    <input type="text" id="email" placeholder="Email Address" name="Email"/>
                                 </div>
                                 <div className="getInTouch-input">
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div className="getInTouch-checkboxText">
-                                    <input type="checkbox" name="agree"/>
+                                    <input type="checkbox" id="checkbox" name="agree"/>
                                     <p>You agree to our friendly 
                                         <a href="/" aria-label="#">Privacy policy.</a>
                                     </p>

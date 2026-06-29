@@ -3,99 +3,100 @@ import React from "react";
 import "./header.scss";
 import Logo from "../../assets/logo/logo.svg";
 import Share from "../../assets/images/login share.svg"
-import { TextAlignJustify } from "lucide-react";
+import {TextAlignJustify } from "lucide-react";
+import { NavLink } from "react-router";
 export default function Header() {
   return (
     <header>
       <div className="container">
         <div className="header-alignment">
           <div className="left-logo">
-            <a href="/" aria-label="logo">
+            <NavLink className="logo" to="/" aria-label="logo">
               <img src={Logo} alt="logo" />
-            </a>
+            </NavLink>
           </div>
           <div className="right-alignment">
             <div className="header-menu-alignment">
               <div className="market-dropdown-menu">
-                <a className="dropdown-menu" href="/" aria-label="dropdown">
+                <NavLink className="dropdown-menu" to="/forex-market" aria-label="dropdown">
                   Markets
-                </a>
+                </NavLink>
                 <div className="dropdown">
                   <div className="dropdown-spacing">
-                    <a href="/" aria-label="menu">
+                    <NavLink className="nav" to="/forex-market">
                       Forex
-                    </a>
-                    <a href="/" aria-label="menu">
+                    </NavLink>
+                    <NavLink className="nav" to="/" aria-label="menu">
                       Indices
-                    </a>
-                    <a href="/" aria-label="menu">
+                    </NavLink>
+                    <NavLink  className="nav" to="/" aria-label="menu">
                       Commodities
-                    </a>
-                    <a href="/" aria-label="menu">
+                    </NavLink>
+                    <NavLink className="nav" to="/" aria-label="menu">
                       Stocks
-                    </a>
-                    <a href="/" aria-label="menu">
+                    </NavLink>
+                    <NavLink className="nav" to="/" aria-label="menu">
                       Crypto
-                    </a>
-                    <a href="/" aria-label="menu">
+                    </NavLink>
+                    <NavLink className="nav" to="/" aria-label="menu">
                       ETFs
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
-              <a href="/" aria-label="menu">
+              <NavLink className="dropdown-menu"  to="/accounts" aria-label="menu">
                 Accounts
-              </a>
+              </NavLink>
               <div className="market-dropdown-menu">
-                <a className="dropdown-menu" href="/" aria-label="dropdown">
+                <NavLink className="dropdown-menu" to="/" aria-label="dropdown">
                   Trade
-                </a>
+                </NavLink>
                 <div className="dropdown trade-dropdown">
                   <div className="dropdown-spacing">
-                    <a href="/" aria-label="menu">
+                    <NavLink className="nav" to="/platforms" aria-label="menu">
                       Platforms
-                    </a>
-                    <a href="/" aria-label="menu">
+                    </NavLink>
+                    <NavLink className="nav" to="/" aria-label="menu">
                       Trading Solutions
-                    </a>
-                    <a href="/" aria-label="menu">
+                    </NavLink>
+                    <NavLink className="nav" to="/" aria-label="menu">
                       Trade and Achieve
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
-              <a className="dropdown-menu" href="/" aria-label="dropdown">
+              <NavLink className="dropdown-menu" to="/partners" aria-label="dropdown">
                 Partners
-              </a>
+              </NavLink>
               <div className="market-dropdown-menu">
-                <a className="dropdown-menu" href="/" aria-label="dropdown">
+                <NavLink className="dropdown-menu" to="/" aria-label="dropdown">
                   Company
-                </a>
+                </NavLink>
                 <div className="dropdown trade-dropdown">
                   <div className="dropdown-spacing">
-                    <a href="/" aria-label="menu">
+                    <NavLink className="nav" to="/about-us" aria-label="menu">
                       About Us
-                    </a>
-                    <a href="/" aria-label="menu">
+                    </NavLink>
+                    <NavLink className="nav"  to="/" aria-label="menu">
                       Contact Us
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
-              <a className="dropdown-menu" href="/" aria-label="dropdown">
+              <NavLink className="dropdown-menu" to="/blogs"aria-label="dropdown">
                 Blogs
-              </a>
-              <a className="dropdown-menu" href="/" aria-label="dropdown">
+              </NavLink>
+              <NavLink className="dropdown-menu" to="/contact-us" aria-label="dropdown">
                 Contact Us
-              </a>
+              </NavLink>
             </div>
             <div className="login-button-design">
-                <a href="/" aria-label="login-button">
+                <NavLink className="login" to="/" aria-label="login-button">
                     <button>
                         <img src={Share} alt="Share"/>
                         <span>Login</span>
                     </button>
-                </a>
+                </NavLink>
                   <div className="mobile-menu">
                     <TextAlignJustify />
                   </div>

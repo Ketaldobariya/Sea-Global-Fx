@@ -11,19 +11,19 @@ export default function Herosection(){
                     <div className="hero-section-grid forex-grid-banner">
                         <div className="hero-grid-items-left">
                             <div className="grid-items-text">
-                                <div className="text-button animate__animated animate__fadeInUp wow" data-wow-offset="100"  data-wow-delay="0.2s">
+                                <div className="text-button animate__animated animate__fadeInUp " data-wow-offset="100"  data-wow-delay="0.2s">
                                     <button>Tight spreads • Fast execution • Deep liquidity</button>
                                 </div>
-                                <h1 className="animate__animated animate__fadeInUp wow" data-wow-offset="100"  data-wow-delay="0.5s">Trade the World’s Most Liquid <span> Financial </span> Market</h1>
-                                <p className="market-paragraph-width animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="0.9s">Access global Forex markets through Sea Global’s secure trading infrastructure, offering transparent pricing, fast execution, and reliable liquidity across market conditions.</p>
+                                <h1 className="animate__animated animate__fadeInUp " data-wow-offset="100"  data-wow-delay="0.5s">Trade the World’s Most Liquid <span> Financial </span> Market</h1>
+                                <p className="market-paragraph-width animate__animated animate__fadeInUp " data-wow-offset="100" data-wow-delay="0.9s">Access global Forex markets through Sea Global’s secure trading infrastructure, offering transparent pricing, fast execution, and reliable liquidity across market conditions.</p>
                                 <div className="towbutton-alignment">
                                     <a href="/" aria-label="Open Account" target="_blank" rel="noreferrer">
-                                        <div className="animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="1s">
+                                        <div className="animate__animated animate__fadeInUp " data-wow-offset="100" data-wow-delay="1s">
                                         <Openaccountbtn/>
                                         </div>
                                     </a>
                                     <a href="/" aria-label="Try Demo" target="_blank" rel="noreferrer">
-                                        <div className="animate__animated animate__fadeInUp wow" data-wow-offset="100" data-wow-delay="1.5s">
+                                        <div className="animate__animated animate__fadeInUp " data-wow-offset="100" data-wow-delay="1.5s">
                                         <Trydemo/>
                                         </div>
                                     </a>
@@ -32,7 +32,7 @@ export default function Herosection(){
                         </div>
                         <div className="hero-grid-items-right">
                             <div className="hero-right-image ">
-                                <img className=" animate__animated animate__fadeInRight wow" data-wow-offset="100"  data-wow-delay="0.1s" src={ForexBanner} alt="ForexBanner"/>
+                                <img className=" animate__animated animate__fadeInRight " data-wow-offset="50" src={ForexBanner} alt="ForexBanner"/>
                             </div>
                         </div>
                     </div>
