@@ -5,7 +5,7 @@
 
 section {
   .waysToReach-section {
-    background: $black20;
+    background: var(--black20);
     padding: 100px 0;
     position: relative;
     overflow: hidden;
@@ -113,7 +113,7 @@ section {
           }
           a {
             cursor: pointer;
-            color: $white;
+            color: var(--bg-white);
             text-align: center;
             font-family: Euclid-primary;
             @include font22;

@@ -5,7 +5,7 @@
 
 section {
   .market-overview-section {
-    background: $black20;
+    background: var(--black20);
     padding: 120px 0;
     position: relative;
     overflow: hidden;
@@ -15,7 +15,7 @@ section {
     &::before {
       content: "";
       filter: blur(250px);
-      background: $white100;
+      background: var(--bg-white100);
       border-radius: 352px;
       width: 198px;
       height: 252px;
@@ -42,7 +42,7 @@ section {
             justify-content: center;
           }
           h2 {
-            color: $white;
+            color: var(--bg-white);
             font-family: GCarturmDemo-SemiBold;
             @include font48;
             @media (max-width: 568px) {
@@ -112,7 +112,7 @@ section {
             .market-card-text {
               padding: 16px 0 0;
               h4 {
-                color: $white200;
+                color: var(--bg-white200);
                 margin: 0 0 8px;
                 font-family: GCarturmDemo-Medium;
                 font-size: 20px;
@@ -121,7 +121,7 @@ section {
                 line-height: 105%;
               }
               p {
-                color: $black300;
+                color: var(--black300);
                 font-family: Euclid-primary;
                 @include font16;
                 font-weight: 300;

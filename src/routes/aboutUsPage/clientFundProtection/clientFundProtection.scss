@@ -5,7 +5,7 @@
 
 section {
   .ClientFundProtection-section {
-    background: $black20;
+    background: var(--black20);
     position: relative;
     padding: 110px 0 0 0;
     @media (max-width:568px) {
@@ -88,7 +88,7 @@ section {
                 }
               }
               p {
-                color: $black300;
+                color: var(--black300);
                 font-family: Euclid-primary;
                 @include font20;
                 @media (max-width:568px){
@@ -145,13 +145,13 @@ section {
                   mask-mode: match-source, match-source;
                 }
                 h3 {
-                  color: $white200;
+                  color: var(--bg-white200);
                   margin: 0 0 12px;
                   font-family: GCarturmDemo-Regular;
                   @include font20;
                 }
                 p {
-                  color: $black300;
+                  color: var(--black300);
                   font-family: Euclid-primary;
                   @include font16;
                   font-weight: 300;

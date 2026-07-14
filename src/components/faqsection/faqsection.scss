@@ -5,7 +5,7 @@
 
 section {
   .Faq-section {
-    background: $white300;
+    background: var(--bg-white300);
     padding: 110px 0;
     @media (max-width: 568px) {
       padding: 60px 0 40px;
@@ -57,8 +57,8 @@ section {
           .faq-items {
             transition: all 1s ease-in-out;
             .faq-items-main {
-              background: $backgroundblack;
-              border: 1px solid $backgroundblack;
+              background: var(  --bgblack);
+              border: 1px solid var(  --bgblack);
               border-radius: 18px;
               margin: 0 0 15px;
               padding: 15px;
@@ -84,7 +84,7 @@ section {
                   gap: 10px;
                 }
                 h3 {
-                  color: $black400;
+                  color: var(--black400);
                   font-family: Euclid-Medium;
                   @include font18;
                   line-height: normal;
@@ -112,7 +112,7 @@ section {
                     padding: 12px 0 0;
                   }
                   p {
-                    color: $black300;
+                    color: var(--black300);
                     font-family: Euclid-primary;
                     @include font16;
                     line-height: 24px;

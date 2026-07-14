@@ -5,7 +5,7 @@
 
 section {
   .account-type-section {
-    background-color: $white300;
+    background-color: var(--bg-white300);
     padding: 110px 0 0 0;
     @media (max-width: 568px) {
       padding: 60px 0 0 0;
@@ -49,7 +49,7 @@ section {
           margin: 0 auto;
           text-align: center;
           max-width: 903px;
-          color: $black300;
+          color: var(--black300);
           @media (max-width: 568px) {
             font-size: 16px;
             line-height: 22px;
@@ -127,7 +127,7 @@ section {
               padding: 24px;
               transition: transform 0.3s ease-in-out;
               h3 {
-                color: $white;
+                color: var(--bg-white);
                 text-align: center;
                 font-family: GCarturmDemo-SemiBold;
                 @include font24;
@@ -139,10 +139,10 @@ section {
             .card-bottom-details {
               padding: 20px 32px;
               .card-bottom-paragraph {
-                border-bottom: 1px solid $black500;
+                border-bottom: 1px solid var(--black500);
                 padding: 0 0 24px;
                 p {
-                  color: $black300;
+                  color: var(--black300);
                   font-family: Euclid-primary;
                   @include font16;
                   font-weight: 400;
@@ -158,12 +158,12 @@ section {
                   display: flex;
                   position: relative;
                   p {
-                    color: $black300;
+                    color: var(--black300);
                     font-family: Euclid-primary;
                     @include font20;
                   }
                   span {
-                    color: $black400;
+                    color: var(--black400);
                     text-align: right;
                     font-family: Euclid-SemiBold;
                     @include font20;
@@ -197,9 +197,9 @@ section {
               }
               a {
                 button {
-                  color: $white;
+                  color: var(--bg-white);
                   cursor: pointer;
-                  background: $black400;
+                  background: var(--black400);
                   border: none;
                   border-radius: 48px;
                   justify-content: center;
@@ -236,7 +236,7 @@ section {
         }
       }
       .education-section {
-        background: $black20;
+        background: var(--black20);
         border-radius: 32px;
         padding: 0 72px;
         @media (max-width: 768px) {
@@ -257,7 +257,7 @@ section {
                 padding: 40px 20px 24px 20px;
               }
               h2 {
-                color: $white;
+                color: var(--bg-white);
                 margin: 0 0 24px;
                 font-family: GCarturmDemo-SemiBold;
                 @include font48;
@@ -274,7 +274,7 @@ section {
                 }
               }
               p {
-                color: $black300;
+                color: var(--black300);
                 font-family: Euclid-primary;
                 @include font20;
                 @media (max-width: 768px) {
@@ -309,7 +309,7 @@ section {
                   gap: 16px;
                 }
                 .left-side-card {
-                  background: $black600;
+                  background: var(--black600);
                   border-radius: 24px;
                   height: 154px;
                   margin: 0 0 16px;
@@ -346,7 +346,7 @@ section {
                     mask-mode: match-source, match-source;
                   }
                   h3 {
-                    color: $white;
+                    color: var(--bg-white);
                     max-width: 110px;
                     margin: 0 0 30px;
                     font-family: Euclid-Medium;

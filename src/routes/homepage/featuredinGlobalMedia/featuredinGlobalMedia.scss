@@ -6,7 +6,7 @@
 section {
   .featured-global-section {
     padding-left: max(20px, 50vw - 620px);
-    background-color: $white300;
+    background-color: var(--bg-white300);
     padding-bottom: 110px;
      @media (max-width:568px){
       padding-bottom: 60px;
@@ -49,7 +49,7 @@ section {
             }
           }
           p {
-            color: $black300;
+            color: var(--black300);
             font-family: Euclid-primary;
             @include font20;
              @media (max-width:568px){

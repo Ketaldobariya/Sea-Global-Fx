@@ -8,7 +8,39 @@ import Luca from "../../../assets/images/Luca.webp"
 import Ana from "../../../assets/images/Ana.webp"
 import Ahmed from "../../../assets/images/Ahmed.webp"
 import Mithcel from "../../../assets/images/Mithcel.webp"
+import Slider from "react-slick";
+
 export default function TrustByTreders() {
+    const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "20px",
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    speed: 500,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    pauseOnHover: true,
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          centerPadding: "15px",
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: "10px",
+        },
+      },
+    ],
+  };
     return (
         <section>
             <div className="trustByTreders-section">
@@ -19,7 +51,7 @@ export default function TrustByTreders() {
                     <p className="animate__animated animate__fadeInUp wow" data-wow-offset="10"  data-wow-delay="0.3s">Our platform is recognized for its commitment to transparent pricing, reliable execution, and professional service. Thousands of traders choose us for our technology, support, and trading conditions.</p>
                 </div>
                 <div className="trustByTreders-cards-swiper">
-                    <div className="cards-swiper">
+                    <Slider {...settings} className="cards-swiper">
                         <div className="trustByTreders-card">
                             <img src={Quote} alt="Quote"/>
                             <div className="card-bottom-text">
@@ -128,7 +160,7 @@ export default function TrustByTreders() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Slider>
                 </div>
             </div>
         </section>

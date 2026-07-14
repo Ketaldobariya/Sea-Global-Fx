@@ -5,7 +5,7 @@
 
 section {
   .ourForexPartner-section {
-    background-color: $white300;
+    background-color: var(--bg-white300);
     padding: 100px 0;
     @media (max-width: 568px) {
       padding: 60px 0;
@@ -114,7 +114,7 @@ section {
             padding: 16px;
           }
           h3 {
-            color: $white;
+            color: var(--bg-white);
             text-align: center;
             font-family: GCarturmDemo-SemiBold;
             @include font24;
@@ -140,7 +140,7 @@ section {
             }
             div {
               p {
-                color: $black300;
+                color: var(--black300);
                 margin: 0 0 24px;
                 font-family: Euclid-primary;
                 @include font20;
@@ -149,7 +149,7 @@ section {
                 margin: 0;
                 padding: 0 0 0 20px;
                 li {
-                  color: $black300;
+                  color: var(--black300);
                   padding: 0 0 10px;
                   font-family: Euclid-primary;
                   @include font18;
@@ -170,7 +170,7 @@ section {
               }
             }
             .ourForexPartner-line {
-              background: $grey100;
+              background: var(--grey100);;
               width: 100%;
               height: 100%;
               @media (max-width: 568px){
@@ -204,9 +204,9 @@ section {
             }
             a {
               button {
-                color: $white;
+                color: var(--bg-white);
                 cursor: pointer;
-                background: $black400;
+                background: var(--black400);
                 border: none;
                 border-radius: 48px;
                 justify-content: center;

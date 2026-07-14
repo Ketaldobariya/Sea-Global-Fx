@@ -11,7 +11,7 @@ import OpenYourAccount from "./openYourAccount";
 import Faqsection from "../../components/faqsection";
 export default function Homepage(){
     return(
-        <div>
+        <div className="homepage">
            <Herosection/>
            <Tagline/>
            <WhySeaGlobal/>

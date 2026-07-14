@@ -5,6 +5,7 @@
 
 section {
   .aboutSeaGlobal-section {
+    background-color: var(--bg-white);
     padding: 80px 0;
     @media (max-width:568px) {
         padding: 60px 0;
@@ -59,7 +60,7 @@ section {
             }
           }
           p {
-            color:$black300;
+            color:var(--black300);
             margin: 0 0 20px;
             font-family: Euclid-primary;
             @include font20;

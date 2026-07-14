@@ -5,7 +5,7 @@
 
 section {
   .partnerTool-section {
-    background: $black20;
+    background: var(--black20);
     position: relative;
     .background-layer {
       width: 100%;
@@ -126,7 +126,7 @@ section {
                   fill: none;
                 }
                 p {
-                  color: $white200;
+                  color: var(--bg-white200);
                   font-family: Euclid-primary;
                   @include font20;
                 }

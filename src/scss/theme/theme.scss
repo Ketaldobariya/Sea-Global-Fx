@@ -1,45 +1,122 @@
-$white:#fff;
-$white100:#d9d9d9;
-$white200:#f5f5f5;
-$white300:#f1f1f1;
-$white400:#ebebeb;
-$white500:#f3f5f9;
-$white600:#cdcdcd;
-$white700:#b6b6b6;
-$white800:#fcfcfc;
-$white900:#d6d6d6;
-$white1-light:#ffffff3d;
-$transparant:#0000001a;
-$backgroundblack:#0c0c0c1a;
-$black:#000;
-$black100:#353535;
-$black20:#141414;
-$black30:#2a303c;
-$black40:#0c0c0c;
-$black200:#5b5b5b;
-$black300:#747474;
-$black400:#252525;
-$black500:#747474ce;
-$black600:#ffffff1a;
-$black700:#1f1f1f;
-$black800:#0f0f0f;
-$black900:#99999954;
-$black1000:#111;
-$black1100:#1d1d1d;
-$black1200:#ffffff0a;
-$grey:#555; 
-$grey100:#828282;
-$grey200:#8c8c8c;
-$grey300:#707070;
-$grey400:#f9f9f9;
-$grey500:#808080;
-$yellow:#b07a09;
-$yellow100:#eeb92b;
-$yellow200:#e8bc33;
-$green:#25d366;
-$green100:#22ab94;
-$red:red;
-$blue:#2962ff;
-$blue100:#1e53e5;
-$blue200:#5b9cf6;
-$brown:#383838;
+:root,
+[data-theme="light"] {
+    --bg-white: #fff;
+    --bg-white100: #d9d9d9;
+    --bg-white200: #f5f5f5;
+    --bg-white300: #f1f1f1;
+    --bg-white400: #ebebeb;
+    --bg-white500: #f3f5f9;
+    --bg-white600: #cdcdcd;
+    --bg-white700: #b6b6b6;
+    --bg-white800: #fcfcfc;
+    --bg-white900: #d6d6d6;
+    --white-dark: #ffffff3d;
+    --transperant: #0000001a;
+    --bgblack: #0c0c0c1a;
+    --black10: #000;
+    --black100: #353535;
+    --black20: #141414;
+    --black30: #2a303c;
+    --black40: #0c0c0c;
+    --black200: #5b5b5b;
+    --black300: #747474;
+    --black400: #252525;
+    --black500: #747474ce;
+    --black600: #ffffff1a;
+    --black700: #1f1f1f;
+    --black800: #0f0f0f;
+    --black900: #99999954;
+    --black1100: #1d1d1d;
+    --black1200: #ffffff0a;
+    --grey: #555;
+    --grey100: #828282;
+    --grey200: #8c8c8c;
+    --grey300: #707070;
+    --grey400: #f9f9f9;
+    --grey500: #808080;
+    --yellow: #b07a09;
+    --yellow100: #eeb92b;
+    --yellow200: #e8bc33;
+    --green: #25d366;
+    --green100: #22ab94;
+    --red: red;
+    --blue: #2962ff;
+    --blue100: #1e53e5;
+    --blue200: #5b9cf6;
+    --brown: #383838;
+    --blue-primary: linear-gradient(#ffffff1a 0%, #fff0 100%);
+}
+
+[data-theme="dark"],
+.container-dark {
+    // ---------------------------------------------------
+    // Premium Dark Theme (Slate/Navy Blue based)
+    // ---------------------------------------------------
+
+    // Backgrounds (Deep rich dark blues/greys)
+    --bg-white: #0B1121;
+    /* Main Background */
+    --bg-white100: #151C2C;
+    /* Cards, Panels */
+    --bg-white200: #1E293B;
+    /* Hover states, Modals */
+    --bg-white300: #1A2234;
+    --bg-white400: #334155;
+    --bg-white500: #0F172A;
+    --bg-white600: #475569;
+    --bg-white700: #64748B;
+    --bg-white800: #080C17;
+    /* Darker than main bg */
+    --bg-white900: #253145;
+    --blue-primary:linear-gradient(rgba(59, 130, 246, 0.15) 0%,
+            rgba(59, 130, 246, 0) 100%);
+    --white-dark: rgba(255, 255, 255, 0.05);
+    --transperant: rgba(255, 255, 255, 0.02);
+    --bgblack: rgba(255, 255, 255, 0.03);
+
+    // Text & Foreground Colors (Whites and light greys)
+    --black10: #FFFFFF;
+    /* Primary Headings */
+    --black100: #F8FAFC;
+    --black20: #F1F5F9;
+    /* Standard Text */
+    --black30: #E2E8F0;
+    --black40: #FFFFFF;
+    --black200: #CBD5E1;
+    /* Subtitle Text */
+    --black300: #94A3B8;
+    /* Muted Text */
+    --black400: #F1F5F9;
+    --black500: rgba(148, 163, 184, 0.8);
+    --black600: rgba(255, 255, 255, 0.1);
+    /* Light Borders */
+    --black700: #FFFFFF;
+    --black800: #FFFFFF;
+    --black900: rgba(255, 255, 255, 0.15);
+    --black1100: #F8FAFC;
+    --black1200: rgba(255, 255, 255, 0.05);
+
+    // Greys
+    --grey: #94A3B8;
+    --grey100: #64748B;
+    --grey200: #475569;
+    --grey300: #334155;
+    --grey400: #1E293B;
+    --grey500: #CBD5E1;
+
+    // Accents (Brighter for better contrast on dark backgrounds)
+    --yellow: #F59E0B;
+    --yellow100: #FCD34D;
+    --yellow200: #FBBF24;
+
+    --green: #10B981;
+    --green100: #34D399;
+
+    --red: #EF4444;
+
+    --blue: #3B82F6;
+    --blue100: #60A5FA;
+    --blue200: #93C5FD;
+
+    --brown: #A8A29E;
+}

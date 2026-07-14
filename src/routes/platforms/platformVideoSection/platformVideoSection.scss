@@ -5,7 +5,7 @@
 
 section {
   .platformVideo-Section {
-    background: $white300;
+    background: var(--bg-white300);
     padding: 100px 0;
     @media (max-width:568px){
         padding: 60px 0;

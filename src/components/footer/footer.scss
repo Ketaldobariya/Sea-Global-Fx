@@ -4,7 +4,7 @@
 @use "../../scss/typography/typography.scss" as *;
 
 footer {
-  background-color: $black20;
+  background-color: var(--black20);
   padding: 55px 0 41px;
   position: relative;
   @media (max-width: 568px) {
@@ -13,7 +13,7 @@ footer {
   &::before {
     content: "";
     filter: blur(250px);
-    background-color: $white100;
+    background-color: var(--bg-white100);
     border-radius: 352px;
     width: 148px;
     height: 252px;
@@ -24,7 +24,7 @@ footer {
   .container-xl {
     padding: 0 20px;
     .footer-grid {
-      border-bottom: 1px solid $black200;
+      border-bottom: 1px solid var(--black200);
       display: grid;
       grid-template-columns: 264px 1fr 318px;
       gap: 74px;
@@ -43,7 +43,7 @@ footer {
           }
         }
         p {
-          color: $black300;
+          color: var(--black300);
           margin: 0 0 20px;
           @include font13-5;
         }
@@ -54,7 +54,7 @@ footer {
           a {
             display: block;
             .footer-icon-round {
-              border: 0.75px solid $black30;
+              border: 0.75px solid var(--black30);
               border-radius: 17.25px;
               display: flex;
               align-items: center;
@@ -68,7 +68,7 @@ footer {
               }
             }
             .footer-icon-round:hover {
-              background-color: $white;
+              background-color: var(--bg-white);
               svg {
                 color: #000;
               }
@@ -89,19 +89,19 @@ footer {
         }
         .footer-center-content {
           h3 {
-            color: $white;
+            color: var(--bg-white);
             margin: 0 0 12px;
             font-family: Euclid-Medium;
             @include font18;
           }
           .footer-title-underline {
-            background-color: $yellow100;
+            background-color: var(--yellow)100;
             width: 30px;
             height: 1.5px;
             margin: 0 0 18px;
           }
           p {
-            color: $black300;
+            color: var(--black300);
             max-width: 161px;
             margin: 0 0 12px;
             @include font13-5;
@@ -110,7 +110,7 @@ footer {
             display: block;
           }
           .menu-text {
-            color: $black300;
+            color: var(--black300);
             max-width: 161px;
             margin: 0 0 12px;
             @include font13-5;
@@ -125,13 +125,13 @@ footer {
       }
       .footer-rightside {
         h5 {
-          color: $white;
+          color: var(--bg-white);
           margin: 0 0 7px;
           font-family: Euclid-SemiBold;
           @include font22-5;
         }
         p {
-          color: $black300;
+          color: var(--black300);
           margin: 0 0 22px;
           font-size: 13.5px;
           line-height: 21px;
@@ -141,8 +141,8 @@ footer {
         .footer-input-relative {
           position: relative;
           input {
-            color: $white;
-            background-color: $black40;
+            color: var(--bg-white);
+            background-color: var(--black40);
             border: 0.75px solid #ffffff21;
             border-radius: 52.5px;
             outline: none;
@@ -213,7 +213,7 @@ footer {
       padding: 40px 0 0;
       position: relative;
       p {
-        color: $black300;
+        color: var(--black300);
         margin: 0 0 16px;
         @include font13-5;
         line-height: 15.757px;

@@ -5,7 +5,7 @@
 
 section {
   .accounttype-section {
-    background-color: $black20;
+    background-color: var(--black20);
     padding: 100px 0;
     position: relative;
     @media (max-width: 568px) {
@@ -34,13 +34,13 @@ section {
             #252525 99.25%
           );
           text-align: center;
-          -webkit-text-fill-color: $white;
+          -webkit-text-fill-color: var(--bg-white);
           -webkit-background-clip: text;
           background-clip: text;
           margin: 0 0 8px;
           font-family: GCarturmDemo-SemiBold;
           @include font48;
-          color: $white;
+          color: var(--bg-white);
           @media (max-width: 568px) {
             @include font30;
           }
@@ -50,7 +50,7 @@ section {
             -webkit-background-clip: text;
             background-clip: text;
           }
-          color: $white;
+          color: var(--bg-white);
         }
         p {
           @include font20;
@@ -58,7 +58,7 @@ section {
           margin: 0 auto;
           text-align: center;
           max-width: 903px;
-          color: $black300;
+          color: var(--black300);
           @media (max-width: 568px) {
             font-size: 16px;
             line-height: 22px;
@@ -137,7 +137,7 @@ section {
               padding: 24px;
               transition: transform 0.3s ease-in-out;
               h3 {
-                color: $white;
+                color: var(--bg-white);
                 text-align: center;
                 font-family: GCarturmDemo-SemiBold;
                 @include font24;
@@ -149,10 +149,10 @@ section {
             .card-bottom-details {
               padding: 20px 32px;
               .card-bottom-paragraph {
-                border-bottom: 1px solid $black500;
+                border-bottom: 1px solid var(--black500);
                 padding: 0 0 24px;
                 p {
-                  color: $black300;
+                  color: var(--black300);
                   font-family: Euclid-primary;
                   @include font16;
                   font-weight: 400;
@@ -168,12 +168,12 @@ section {
                   display: flex;
                   position: relative;
                   p {
-                    color: $black300;
+                    color: var(--black300);
                     font-family: Euclid-primary;
                     @include font20;
                   }
                   span {
-                    color: $black400;
+                    color: var(--black400);
                     text-align: right;
                     font-family: Euclid-SemiBold;
                     @include font20;
@@ -181,7 +181,7 @@ section {
                     display: block;
                   }
                   .text-span-white{
-                    color: $white;
+                    color: var(--bg-white);
                   }
                 }
               }
@@ -210,9 +210,9 @@ section {
               }
               a {
                 button {
-                  color: $black400;
+                  color: var(--black400);
                   cursor: pointer;
-                  background: $white;
+                  background: var(--bg-white);
                   border: none;
                   border-radius: 48px;
                   justify-content: center;

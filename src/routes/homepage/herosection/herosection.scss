@@ -5,6 +5,7 @@
 
 section {
   .comman-banner {
+    background-color: var(--bg-white);
     background-image: url("../../../assets/images/hero-bg.png");
     background-position: bottom;
     background-repeat: no-repeat;
@@ -41,10 +42,10 @@ section {
               padding: 0 0 20px;
               max-width: 310px;
               .button {
-                color: $black400;
+                color: var(--black400);
                 text-align: center;
                 text-transform: capitalize;
-                background: $white1-light;
+                background: var(--white-dark);
                 border: none;
                 border-radius: 50px;
                 padding: 10px 16px;
@@ -106,7 +107,7 @@ section {
               }
             }
             p {
-              color: $grey;
+              color: var(--grey);
               max-width: 464px;
               margin: 0 0 20px;
               font-family: Euclid-primary;

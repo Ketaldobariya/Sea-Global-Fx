@@ -6,8 +6,8 @@
 section {
   .ProfessionalTradingTools-section {
     padding: 110px 0;
-    background-color: $white300;
-    border-bottom: 1px solid $black900;
+    background-color: var(--bg-white300);
+    border-bottom: 1px solid var(--black900);
     @media (max-width: 568px) {
       padding: 60px 0;
     }
@@ -73,7 +73,7 @@ section {
               }
             }
             p {
-              color: $black300;
+              color: var(--black300);
               font-family: Euclid-primary;
               @include font20;
               @media (max-width: 568px) {
@@ -100,14 +100,14 @@ section {
               padding: 28px 22px;
               transition: all 0.8s ease-in-out;
               h3 {
-                color: $black400;
+                color: var(--black400);
                 max-width: 190px;
                 margin: 0 0 12px;
                 font-family: Euclid-primary;
                 @include font20;
               }
               p {
-                color: $black300;
+                color: var(--black300);
                 font-family: Euclid-primary;
                 @include font16;
                 font-weight: 300;

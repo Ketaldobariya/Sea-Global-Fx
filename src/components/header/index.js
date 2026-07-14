@@ -1,11 +1,12 @@
-
-import React from "react";
+import React, { useState } from "react";
 import "./header.scss";
 import Logo from "../../assets/logo/logo.svg";
-import Share from "../../assets/images/login share.svg"
-import {TextAlignJustify } from "lucide-react";
+import Share from "../../assets/images/login share.svg";
+import { TextAlignJustify, Sun, Moon } from "lucide-react";
 import { NavLink } from "react-router";
-export default function Header() {
+
+export default function Header({ theme, toggleTheme }) {
+  const [side, setSide] = useState(false);
   return (
     <header>
       <div className="container">
@@ -18,7 +19,11 @@ export default function Header() {
           <div className="right-alignment">
             <div className="header-menu-alignment">
               <div className="market-dropdown-menu">
-                <NavLink className="dropdown-menu" to="/forex-market" aria-label="dropdown">
+                <NavLink
+                  className="dropdown-menu"
+                  to="/forex-market"
+                  aria-label="dropdown"
+                >
                   Markets
                 </NavLink>
                 <div className="dropdown">
@@ -29,7 +34,7 @@ export default function Header() {
                     <NavLink className="nav" to="/" aria-label="menu">
                       Indices
                     </NavLink>
-                    <NavLink  className="nav" to="/" aria-label="menu">
+                    <NavLink className="nav" to="/" aria-label="menu">
                       Commodities
                     </NavLink>
                     <NavLink className="nav" to="/" aria-label="menu">
@@ -44,7 +49,11 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-              <NavLink className="dropdown-menu"  to="/accounts" aria-label="menu">
+              <NavLink
+                className="dropdown-menu"
+                to="/accounts"
+                aria-label="menu"
+              >
                 Accounts
               </NavLink>
               <div className="market-dropdown-menu">
@@ -65,7 +74,11 @@ export default function Header() {
                   </div>
                 </div>
               </div>
-              <NavLink className="dropdown-menu" to="/partners" aria-label="dropdown">
+              <NavLink
+                className="dropdown-menu"
+                to="/partners"
+                aria-label="dropdown"
+              >
                 Partners
               </NavLink>
               <div className="market-dropdown-menu">
@@ -77,29 +90,51 @@ export default function Header() {
                     <NavLink className="nav" to="/about-us" aria-label="menu">
                       About Us
                     </NavLink>
-                    <NavLink className="nav"  to="/" aria-label="menu">
+                    <NavLink className="nav" to="/" aria-label="menu">
                       Contact Us
                     </NavLink>
                   </div>
                 </div>
               </div>
-              <NavLink className="dropdown-menu" to="/blogs"aria-label="dropdown">
+              <NavLink
+                className="dropdown-menu"
+                to="/blogs"
+                aria-label="dropdown"
+              >
                 Blogs
               </NavLink>
-              <NavLink className="dropdown-menu" to="/contact-us" aria-label="dropdown">
+              <NavLink
+                className="dropdown-menu"
+                to="/contact-us"
+                aria-label="dropdown"
+              >
                 Contact Us
               </NavLink>
             </div>
             <div className="login-button-design">
-                <NavLink className="login" to="/" aria-label="login-button">
-                    <button>
-                        <img src={Share} alt="Share"/>
-                        <span>Login</span>
-                    </button>
-                </NavLink>
-                  <div className="mobile-menu">
-                    <TextAlignJustify />
-                  </div>
+              <button
+                className="theme-toggle-btn"
+                onClick={toggleTheme}
+                aria-label="Toggle Theme"
+              >
+                {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
+              </button>
+              <NavLink className="login" to="/login" aria-label="login-button">
+                <button>
+                  <img src={Share} alt="Share" />
+                  <span>Login</span>
+                </button>
+              </NavLink>
+              <div className="mobile-menu" onClick={() => setSide(!side)}>
+                <TextAlignJustify />
+              </div>
+                <div className={side ? "sidebar " : "sidebar on"}>
+                  <ul>
+                    <li>Market</li>
+                    <li>Accounts</li>
+                    <li>Trade</li>
+                  </ul>
+                </div>
             </div>
           </div>
         </div>

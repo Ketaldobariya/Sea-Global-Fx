@@ -6,6 +6,7 @@
 section {
   .tradingHours-section {
     padding: 100px 0;
+    background-color: var(--bg-white);
     @media (max-width: 568px) {
       padding: 60px 0 100px;
     }
@@ -19,11 +20,11 @@ section {
           grid-template-columns: 1fr;
         }
         .tradingHours-card {
-          border-right: 1px solid $white600;
+          border-right: 1px solid var(--bg-white600);
           padding: 20px 20px 30px;
           @media (max-width: 568px) {
             border-right: none;
-            border-bottom: 1px solid $white600;
+            border-bottom: 1px solid var(--bg-white600);
             padding: 24px 0;
           }
           h3 {
@@ -59,7 +60,7 @@ section {
             line-height: 105%;
           }
           p {
-            color: $black300;
+            color: var(--black300);
             text-align: center;
             font-family: Euclid-primary;
             @include font16;
@@ -74,7 +75,7 @@ section {
             margin: 0;
             padding: 0 0 0 20px;
             li {
-              color: $black300;
+              color: var(--black300);
               font-family: Euclid-primary;
               @include font16;
               font-weight: 400;

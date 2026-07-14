@@ -5,7 +5,7 @@
 
 section {
   .why-sea-global-section {
-    background: $black20;
+    background: var(--black20);
     padding: 100px 0 0 0;
     .container-sm {
       padding: 0 20px;
@@ -108,7 +108,7 @@ section {
               box-shadow: none;
               transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
               transform-style: preserve-3d;
-              background: linear-gradient(#ffffff1a 0%, #fff0 100%);
+              background: var(--blue-primary);
               border-radius: 24px;
               padding: 34px 24px 24px;
               transition:
@@ -141,13 +141,13 @@ section {
               }
 
               h3 {
-                color: $white200;
+                color: var(--bg-white200);
                 margin: 0 0 12px;
                 font-family: GCarturmDemo-Regular;
                 @include font20;
               }
               p {
-                color: $black300;
+                color: var(--black300);
                 font-family: Euclid-primary;
                 font-weight: 300;
                 line-height: 105%;

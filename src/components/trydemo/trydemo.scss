@@ -7,8 +7,8 @@
     button{
   opacity: 1;
   transform: none;
-  background: $black400;
-  color: $white;
+  background: var(--black100);
+  color: var(--bg-white);
   cursor: pointer;
   border: none;
   border-radius: 48px;

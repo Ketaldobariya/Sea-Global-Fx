@@ -5,7 +5,7 @@
 
 section {
   .readyToBecomeAPartner {
-    background: $white300;
+    background: var(--bg-white300);
     padding: 100px 0 0;
     @media (max-width:768px) {
         padding: 0;
@@ -13,12 +13,12 @@ section {
     .readyToBecomeAPartner-section {
       .container-xl {
         padding: 0 20px;
-        background-color: $white300;
+        background-color: var(--bg-white300);
         @media (max-width: 568px) {
           padding: 0;
         }
         .readyToBecomeAPartner-box {
-          background: $black20;
+          background: var(--black20);
           border-radius: 32px;
           position: relative;
           @media (max-width: 568px) {
@@ -42,7 +42,7 @@ section {
                 padding: 60px 20px 40px;
               }
               .platform-header-start {
-                color: $white;
+                color: var(--bg-white);
                 max-width: 100%;
                 margin: 0 0 8px;
                 font-family: GCarturmDemo-SemiBold;
@@ -58,7 +58,7 @@ section {
                 }
               }
               h6 {
-                color: $black300;
+                color: var(--black300);
                 max-width: 548px;
                 margin: 0 0 16px;
                 font-family: Euclid-primary;

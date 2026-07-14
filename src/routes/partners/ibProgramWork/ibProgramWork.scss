@@ -6,6 +6,7 @@
 section {
   .openYourAccount {
     padding: 100px 0;
+    background-color: var(--bg-white);
      @media (max-width:568px){
       padding: 60px 0;
      }
@@ -58,7 +59,7 @@ section {
          }
         .easy-step-card {
           transform-style: preserve-3d;
-          background: $white300;
+          background: var(--bg-white300);
           border-radius: 24px;
           padding: 24px 24px 0px;
           transition:
@@ -93,7 +94,7 @@ section {
           }
           .easy-steps-card-counter {
             background: linear-gradient(90deg, #e8bc33 10%, #b07a09 100%);
-            color: $white;
+            color: var(--bg-white);
             text-align: center;
             border-radius: 50px;
             justify-content: center;
@@ -122,7 +123,7 @@ section {
             display: inline;
           }
           p {
-            color: $black300;
+            color: var(--black300);
             margin: 8px 0 18px;
             font-family: Euclid-primary;
             @include font18;

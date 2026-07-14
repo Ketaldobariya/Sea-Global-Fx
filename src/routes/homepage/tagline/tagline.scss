@@ -8,7 +8,7 @@
     height: 83px;
     width: 100%;
     overflow: hidden;
-    background-color: $black;
+    background-color: var(--black10);
     position: relative;
     z-index: 5;
     .marquee {
@@ -63,7 +63,7 @@
               text-overflow: ellipsis;
               @include font16;
               line-height: 24px;
-              color: $white;
+              color: var(--bg-white);
             }
           }
           .bottom-counts {
@@ -74,20 +74,20 @@
             .price {
               @include font16;
               line-height: 24px;
-              color: $red;
+              color: var(--red);
             }
             .country {
               @include font11;
               text-transform: uppercase;
-              color: $white;
+              color: var(--bg-white);
             }
             .flow-percentage {
               @include font16;
               line-height: 24px;
-              color: $red;
+              color: var(--red);
             }
             .profit {
-              color: $green;
+              color: var(--green)
             }
           }
         }
@@ -110,7 +110,7 @@
     align-items: center;
     gap: 2px;
     padding-block-start: 4px;
-    background-color: $black700;
+    background-color: var(--black700);
     position: absolute;
     right: 0;
     top: 10px;
@@ -125,7 +125,7 @@
     transition: 0.3s ease-in-out;
     box-shadow: 0 2px 4px 0 light-dark(#0003, #0006);
     svg{
-      color: $white;
+      color: var(--bg-white);
       display: flex;
       align-items: center;
     }

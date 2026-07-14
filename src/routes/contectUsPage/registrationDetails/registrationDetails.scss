@@ -7,6 +7,7 @@ section {
   .registrationDetails-section {
     padding: 100px 0 0;
     position: relative;
+    background-color: var(--bg-white);
     @media (max-width: 568px) {
       padding: 60px 0 0;
     }
@@ -49,14 +50,14 @@ section {
               padding: 0;
             }
             h3 {
-              color: $black300;
+              color: var(--black300);
               margin: 0 0 16px;
               font-family: Euclid-SemiBold;
               @include font24;
               line-height: 100%;
             }
             p {
-              color: $black300;
+              color: var(--black300);
               max-width: 450px;
               font-family: Euclid-primary;
               @include font20;

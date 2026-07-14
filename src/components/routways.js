@@ -8,6 +8,8 @@ import Partners from "../routes/partners";
 import AboutUsPage from "../routes/aboutUsPage";
 import BlogsPage from "../routes/blogsPage";
 import ContectUsPage from "../routes/contectUsPage";
+import LoginPage from "../routes/loginPage";
+import OpenAccountPage from "../routes/openAccountPage";
 
 export default function Routways() {
   return (
@@ -20,6 +22,8 @@ export default function Routways() {
       <Route path="/about-us" element={<AboutUsPage />} />
       <Route path="/blogs" element={<BlogsPage />} />
       <Route path="/contact-us" element={<ContectUsPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/open-account" element={<OpenAccountPage />} />
     </Routes>
   );
 }

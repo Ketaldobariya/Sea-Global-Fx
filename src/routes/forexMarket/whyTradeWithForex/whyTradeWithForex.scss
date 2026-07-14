@@ -5,7 +5,7 @@
 
 section {
   .WhyTradeWithForex-section {
-    background-color: $black20;
+    background-color: var(--black20);
     padding: 110px 0 78px;
     position: relative;
     @media (max-width: 568px) {
@@ -14,7 +14,7 @@ section {
     &::before {
       content: "";
       filter: blur(250px);
-      background: $white100;
+      background: var(--bg-white100);
       border-radius: 352px;
       width: 158px;
       height: 252px;
@@ -63,7 +63,7 @@ section {
           }
           .leftside-bottom-paragraph {
             p {
-              color: $grey100;
+              color: var(--grey100);;
               max-width: 466px;
               font-family: Euclid-primary;
               @include font16;
@@ -90,7 +90,7 @@ section {
               padding: 16px;
             }
             .WhyTradeWithForex-right-darkbox-card {
-              border-right: 1px solid $black300;
+              border-right: 1px solid var(--black300);
               position: relative;
               @media (max-width: 568px) {
                 border-right: none;
@@ -98,7 +98,7 @@ section {
               .WhyTradeWithForex-right-darkbox-card-content {
                 padding: 22px 16px 16px;
                 @media (max-width: 568px) {
-                  border-bottom: 1px solid $black300;
+                  border-bottom: 1px solid var(--black300);
                   padding: 24px 0;
                 }
                 img {
@@ -106,20 +106,20 @@ section {
                   -webkit-user-drag: none;
                 }
                 h3 {
-                  color: $white;
+                color: var(--bg-white);
                   margin: 14px 0;
                   font-family: Euclid-Medium;
                   @include font20;
                   font-weight: 500;
                 }
                 p {
-                  color: $black300;
+                  color: var(--black300);
                   font-family: Euclid-primary;
                   @include font15;
                 }
               }
               .WhyTradeWithForex-card-content-bottom-line {
-                background-color: $black300;
+                background-color: var(--black300);
                 width: calc(100% - 32px);
                 height: 1px;
                 margin: 0 auto;

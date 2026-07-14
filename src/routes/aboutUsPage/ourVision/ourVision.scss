@@ -5,7 +5,7 @@
 
 section {
   .ourVision-section {
-    background: $black20;
+    background: var(--black20);
     padding: 100px 0;
     position: relative;
     @media (max-width: 568px) {
@@ -105,7 +105,7 @@ section {
                   mask-mode: match-source, match-source;
                 }
                 p {
-                  color: $white200;
+                  color: var(--bg-white200);
                   font-family: Euclid-primary;
                   @include font20;
                   @media (max-width: 568px) {
